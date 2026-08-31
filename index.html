@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thử Thách 60 Ngày Đọc Hiểu Tiếng Anh</title>
+  <style>
+    :root {
+      --primary: #0284c7;
+      --primary-dark: #0369a1;
+      --accent: #f59e0b;
+      --success: #10b981;
+      --danger: #ef4444;
+      --bg: #f8fafc;
+      --card-bg: #ffffff;
+      --text: #1e293b;
+      --text-muted: #64748b;
+      --border: #e2e8f0;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding-bottom: 50px;
+    }
+
+    /* Login */
+    .login-screen {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      background:
+        radial-gradient(circle at top left, rgba(2, 132, 199, 0.16), transparent 38%),
+        linear-gradient(135deg, #f8fafc 0%, #e0f2fe 100%);
+    }
+
+    .login-card {
+      width: 100%;
+      max-width: 430px;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 32px;
+      box-shadow: 0 18px 50px rgba(15, 23, 42, 0.12);
+    }
+
+    .login-icon {
+      width: 64px;
+      height: 64px;
+      margin: 0 auto 14px;
+      border-radius: 18px;
+      display: grid;
+      place-items: center;
+      font-size: 2rem;
+      background: #e0f2fe;
+    }
+
+    .login-card h1 {
+      text-align: center;
+      color: var(--primary-dark);
+      font-size: 1.55rem;
+      margin-bottom: 6px;
+    }
+
+    .login-subtitle {
+      text-align: center;
+      color: var(--text-muted);
+      margin-bottom: 24px;
+    }
+
+    .form-group { margin-bottom: 16px; }
+
+    .form-group label {
+      display: block;
+      font-weight: 600;
+      margin-bottom: 7px;
+    }
+
+    .form-control {
+      width: 100%;
+      padding: 11px 12px;
+      border: 1px solid #cbd5e1;
+      border-radius: 9px;
+      background: #fff;
+      color: var(--text);
+      font-size: 1rem;
+      outline: none;
+    }
+
+    .form-control:focus {
+      border-color: var(--primary);
+      box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.13);
+    }
+
+    .btn-login {
+      width: 100%;
+      border: none;
+      border-radius: 10px;
+      padding: 12px 16px;
+      background: var(--primary);
+      color: #fff;
+      font-size: 1rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: background 0.2s, transform 0.2s;
+    }
+
+    .btn-login:hover {
+      background: var(--primary-dark);
+      transform: translateY(-1px);
+    }
+
+    .login-error {
+      min-height: 22px;
+      margin-top: 10px;
+      color: var(--danger);
+      text-align: center;
+      font-size: 0.9rem;
+      font-weight: 600;
+    }
+
+    .save-note {
+      margin-top: 16px;
+      padding: 10px 12px;
+      border-radius: 9px;
+      background: #f0fdf4;
+      color: #166534;
+      font-size: 0.85rem;
+      text-align: center;
+    }
+
+    /* Top Bar */
+    header {
+      background-color: var(--card-bg);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.03);
+    }
+
+    .nav-container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 12px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .user-stats {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .account-badge {
+      color: var(--primary-dark);
+      font-weight: 700;
+      white-space: nowrap;
+    }
+
+    .star-badge {
+      background-color: #fef3c7;
+      color: #b45309;
+      font-weight: bold;
+      padding: 6px 14px;
+      border-radius: 999px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      border: 1px solid #fde68a;
+    }
+
+    .btn-nav {
+      background-color: var(--primary);
+      color: white;
+      border: none;
+      padding: 8px 14px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: 600;
+      transition: background 0.2s;
+    }
+
+    .btn-nav:hover { background-color: var(--primary-dark); }
+
+    .btn-logout { background-color: #64748b; }
+    .btn-logout:hover { background-color: #475569; }
+
+    /* Layout Containers */
+    .container {
+      max-width: 1000px;
+      margin: 24px auto;
+      padding: 0 16px;
+    }
+
+    /* 60-Day Grid */
+    .dashboard-header {
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .grid-60 {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+      gap: 14px;
+    }
+
+    .day-card {
+      background: var(--card-bg);
+      border-radius: 12px;
+      border: 2px solid var(--border);
+      padding: 14px;
+      text-align: center;
+      cursor: pointer;
+      transition: transform 0.2s, box-shadow 0.2s;
+      position: relative;
+    }
+
+    .day-card:hover:not(.locked) {
+      transform: translateY(-3px);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.08);
+      border-color: var(--primary);
+    }
+
+    .day-card.locked {
+      opacity: 0.45;
+      cursor: not-allowed;
+      filter: grayscale(80%);
+      background-color: #f1f5f9;
+    }
+
+    .day-card.completed {
+      border-color: var(--success);
+      background-color: #f0fdf4;
+    }
+
+    .day-number {
+      font-weight: 700;
+      font-size: 1.1rem;
+      margin-bottom: 4px;
+    }
+
+    .animal-avatar {
+      font-size: 2.2rem;
+      margin: 8px 0;
+      display: inline-block;
+    }
+
+    .day-status {
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: var(--text-muted);
+    }
+
+    /* Modal / Lesson View */
+    .view-panel {
+      display: none;
+      background: var(--card-bg);
+      border-radius: 16px;
+      border: 1px solid var(--border);
+      padding: 24px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+    }
+
+    .panel-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 12px;
+      margin-bottom: 20px;
+    }
+
+    .passage-box {
+      background-color: #f8fafc;
+      border-left: 4px solid var(--primary);
+      padding: 18px;
+      border-radius: 0 8px 8px 0;
+      margin-bottom: 28px;
+      font-size: 1.05rem;
+      line-height: 1.8;
+    }
+
+    .question-item {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 16px;
+      margin-bottom: 18px;
+    }
+
+    .q-title {
+      font-weight: 600;
+      margin-bottom: 12px;
+      color: #0f172a;
+    }
+
+    .options-grid {
+      display: grid;
+      gap: 10px;
+    }
+
+    .option-btn {
+      text-align: left;
+      padding: 10px 14px;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      background-color: #ffffff;
+      cursor: pointer;
+      font-size: 0.95rem;
+      transition: all 0.2s;
+    }
+
+    .option-btn:hover:not(:disabled) {
+      background-color: #f1f5f9;
+      border-color: #cbd5e1;
+    }
+
+    .option-btn.correct {
+      background-color: #dcfce7 !important;
+      border-color: var(--success) !important;
+      color: #166534;
+      font-weight: 600;
+    }
+
+    .option-btn.incorrect {
+      background-color: #fee2e2 !important;
+      border-color: var(--danger) !important;
+      color: #991b1b;
+    }
+
+    .feedback-msg {
+      margin-top: 8px;
+      font-size: 0.85rem;
+      font-weight: 600;
+    }
+    .feedback-msg.error { color: var(--danger); }
+    .feedback-msg.ok { color: var(--success); }
+
+    /* Leaderboard Table */
+    .table-container {
+      margin-top: 15px;
+      overflow-x: auto;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+    }
+
+    th, td {
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    th {
+      background-color: #f8fafc;
+      font-weight: 600;
+      color: var(--text-muted);
+    }
+
+    tr.highlight {
+      background-color: #f0f9ff;
+      font-weight: bold;
+    }
+
+    .badge-rank {
+      display: inline-block;
+      width: 24px;
+      height: 24px;
+      line-height: 24px;
+      text-align: center;
+      border-radius: 50%;
+      background: #e2e8f0;
+      font-size: 0.8rem;
+    }
+    .rank-1 { background: #fef08a; color: #854d0e; }
+    .rank-2 { background: #e2e8f0; color: #475569; }
+    .rank-3 { background: #fed7aa; color: #9a3412; }
+
+    @media (max-width: 720px) {
+      .nav-container {
+        align-items: flex-start;
+        gap: 12px;
+      }
+
+      .user-stats {
+        justify-content: flex-end;
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+
+      .account-badge { width: 100%; text-align: right; }
+      .btn-nav { padding: 7px 10px; }
+      .login-card { padding: 26px 22px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Login -->
+  <section id="loginView" class="login-screen">
+    <form class="login-card" onsubmit="handleLogin(event)">
+      <div class="login-icon">📘</div>
+      <h1>60-Day English Reading</h1>
+      <p class="login-subtitle">Đăng nhập để tiếp tục lộ trình của bạn</p>
+
+      <div class="form-group">
+        <label for="loginUsername">Tài khoản</label>
+        <select id="loginUsername" class="form-control" required>
+          <option value="">-- Chọn tài khoản --</option>
+          <option value="huong">huong</option>
+          <option value="lisa">lisa</option>
+          <option value="mike">mike</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="loginPassword">Mật khẩu</label>
+        <input id="loginPassword" class="form-control" type="password" inputmode="numeric" autocomplete="current-password" placeholder="Nhập mật khẩu" required>
+      </div>
+
+      <button class="btn-login" type="submit">Đăng nhập</button>
+      <div id="loginError" class="login-error" role="alert" aria-live="polite"></div>
+      <div class="save-note">✓ Tiến độ được tự động lưu riêng cho từng tài khoản trên thiết bị này.</div>
+    </form>
+  </section>
+
+  <div id="appShell" style="display: none;">
+
+  <!-- Top Navigation -->
+  <header>
+    <div class="nav-container">
+      <div style="font-weight: 700; font-size: 1.2rem; color: var(--primary);">
+        📘 60-Day English Reading
+      </div>
+      <div class="user-stats">
+        <div class="account-badge">👤 <span id="currentUserName"></span></div>
+        <div class="star-badge">
+          ⭐ <span id="userTotalStars">0</span> Sao
+        </div>
+        <button class="btn-nav" id="btnLeaderboard" onclick="toggleView('leaderboard')">🏆 Bảng Xếp Hạng</button>
+        <button class="btn-nav btn-logout" onclick="logout()">Đăng xuất</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    
+    <!-- View 1: 60-Day Grid Dashboard -->
+    <section id="dashboardView">
+      <div class="dashboard-header">
+        <h2>Lộ Trình Thử Thách 60 Ngày</h2>
+        <p style="color: var(--text-muted);">Mỗi câu đúng nhận +10 sao. Hoàn thành ngày để mở khóa con vật may mắn & bài tiếp theo!</p>
+      </div>
+      <div class="grid-60" id="dayGridContainer"></div>
+    </section>
+
+    <!-- View 2: Daily Reading & Test View -->
+    <section id="lessonView" class="view-panel">
+      <div class="panel-header">
+        <div>
+          <button class="btn-nav" onclick="backToDashboard()" style="background: #64748b; margin-bottom: 8px;">← Trở về Lộ Trình</button>
+          <h2 id="lessonTitle">Ngày 1</h2>
+        </div>
+        <div class="star-badge" id="lessonDayStars">⭐ Đang làm bài</div>
+      </div>
+
+      <div class="passage-box" id="passageContent"></div>
+
+      <h3 style="margin-bottom: 16px;">Bộ 10 Câu Hỏi Đọc Hiểu & Từ Vựng</h3>
+      <div id="questionsContainer"></div>
+
+      <div id="dayCompletionBox" style="display:none; text-align: center; margin-top: 30px; padding: 20px; background: #f0fdf4; border-radius: 12px; border: 1px solid #bbf7d0;">
+        <div style="font-size: 3rem;" id="unlockedAnimalIcon">🎉</div>
+        <h3 style="color: #166534; margin: 10px 0;">Xuất Sắc! Bạn Đã Hoàn Thành Bài Hôm Nay!</h3>
+        <p style="color: #15803d; margin-bottom: 16px;">Bạn nhận trọn vẹn 100 Sao và đã mở khóa biểu tượng ngày hôm nay.</p>
+        <button class="btn-nav" onclick="backToDashboard()" style="background: var(--success); font-size: 1rem; padding: 10px 24px;">Tiếp Tục Lộ Trình</button>
+      </div>
+    </section>
+
+    <!-- View 3: Leaderboard -->
+    <section id="leaderboardView" class="view-panel">
+      <div class="panel-header">
+        <h2>🏆 Bảng Xếp Hạng Thi Đua</h2>
+        <button class="btn-nav" onclick="backToDashboard()">← Đóng Bảng</button>
+      </div>
+      <div class="table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>Hạng</th>
+              <th>Học Viên</th>
+              <th>Số Ngày Hoàn Thành</th>
+              <th>Tổng Số Sao</th>
+            </tr>
+          </thead>
+          <tbody id="leaderboardTbody"></tbody>
+        </table>
+      </div>
+    </section>
+
+  </main>
+  </div>
+
+  <!-- Nạp file dữ liệu bài đọc riêng biệt -->
+  <script src="data.js"></script>
+
+  <script>
+    // Danh sách 60 biểu tượng thú mở khóa cho 60 ngày
+    const ANIMAL_LIST = [
+      "🐱","🐶","🦊","🐼","🐨","🦁","🐯","🐮","🐰","🐻",
+      "🦉","🦄","🐬","🐳","🦋","🦚","🐢","🐙","🐝","🦩",
+      "🐴","🦓","🦍","🐘","🦛","🦏","🐪","🦒","🦘","🦥",
+      "🦦","🦨","🦡","🐁","🐇","🐿️","🦔","🦇","🦅","🦆",
+      "🦢","🦜","🦤","🪶","🦭","🦈","🐊","🦖","🦕","🐠",
+      "🦀","🦞","🦐","🦑","🦪","🐞","🦗","🐜","🪲","🦮"
+    ];
+
+    // Fallback: Nếu ngày nào chưa kịp viết trong data.js thì app vẫn chạy mượt mà
+    if (typeof LESSON_DATA === 'undefined') {
+      window.LESSON_DATA = {};
+    }
+
+    for (let d = 1; d <= 60; d++) {
+      if (!LESSON_DATA[d]) {
+        LESSON_DATA[d] = {
+          title: `Chủ đề Ngày ${d}: Đang cập nhật`,
+          passage: `Nội dung bài đọc Ngày ${d} đang được cập nhật...`,
+          questions: Array.from({ length: 10 }, (_, i) => ({
+            q: `Câu hỏi ${i + 1} (Ngày ${d}): Chọn đáp án đúng theo bài học.`,
+            options: ["Đáp án đúng", "Đáp án sai A", "Đáp án sai B", "Đáp án sai C"],
+            correct: 0
+          }))
+        };
+      }
+    }
+
+    // Đăng nhập & tiến độ riêng cho từng tài khoản
+    const APP_USERS = ["huong", "lisa", "mike"];
+    const APP_PASSWORD = "123456";
+    const PROGRESS_KEY_PREFIX = "reading_app_progress_v2_";
+    const SESSION_USER_KEY = "reading_app_current_user";
+    const LEGACY_PROGRESS_KEY = "reading_app_progress";
+    const LEGACY_MIGRATION_KEY = "reading_app_progress_migrated_to";
+
+    let currentUser = null;
+    let userProgress = createDefaultProgress();
+
+    let currentOpenDay = 1;
+
+    function createDefaultProgress() {
+      return {
+        unlockedDay: 1,
+        totalStars: 0,
+        completedDays: {},
+        currentDayAnswers: {},
+        lastOpenDay: 1,
+        updatedAt: null
+      };
+    }
+
+    function normalizeProgress(progress) {
+      const defaults = createDefaultProgress();
+      if (!progress || typeof progress !== 'object') return defaults;
+
+      return {
+        unlockedDay: Math.min(60, Math.max(1, Number(progress.unlockedDay) || 1)),
+        totalStars: Math.max(0, Number(progress.totalStars) || 0),
+        completedDays: progress.completedDays && typeof progress.completedDays === 'object' ? progress.completedDays : {},
+        currentDayAnswers: progress.currentDayAnswers && typeof progress.currentDayAnswers === 'object' ? progress.currentDayAnswers : {},
+        lastOpenDay: Math.min(60, Math.max(1, Number(progress.lastOpenDay) || 1)),
+        updatedAt: progress.updatedAt || null
+      };
+    }
+
+    function getProgressKey(username) {
+      return `${PROGRESS_KEY_PREFIX}${username}`;
+    }
+
+    function readStoredProgress(storageKey) {
+      try {
+        const raw = localStorage.getItem(storageKey);
+        return raw ? normalizeProgress(JSON.parse(raw)) : null;
+      } catch (error) {
+        console.warn('Không thể đọc tiến độ đã lưu:', error);
+        return null;
+      }
+    }
+
+    function loadProgress(username) {
+      const userKey = getProgressKey(username);
+      const savedProgress = readStoredProgress(userKey);
+      if (savedProgress) return savedProgress;
+
+      // Giữ lại tiến độ từ phiên bản cũ cho tài khoản đầu tiên đăng nhập.
+      const migratedTo = localStorage.getItem(LEGACY_MIGRATION_KEY);
+      const legacyProgress = readStoredProgress(LEGACY_PROGRESS_KEY);
+      if (legacyProgress && !migratedTo) {
+        localStorage.setItem(userKey, JSON.stringify(legacyProgress));
+        localStorage.setItem(LEGACY_MIGRATION_KEY, username);
+        return legacyProgress;
+      }
+
+      return createDefaultProgress();
+    }
+
+    function handleLogin(event) {
+      event.preventDefault();
+      const username = document.getElementById('loginUsername').value;
+      const password = document.getElementById('loginPassword').value;
+      const errorBox = document.getElementById('loginError');
+
+      if (!APP_USERS.includes(username) || password !== APP_PASSWORD) {
+        errorBox.innerText = 'Tài khoản hoặc mật khẩu chưa đúng.';
+        return;
+      }
+
+      errorBox.innerText = '';
+      startUserSession(username);
+    }
+
+    function startUserSession(username) {
+      currentUser = username;
+      userProgress = loadProgress(username);
+      currentOpenDay = Math.min(userProgress.lastOpenDay, userProgress.unlockedDay);
+      sessionStorage.setItem(SESSION_USER_KEY, username);
+
+      document.getElementById('currentUserName').innerText = username;
+      document.getElementById('loginView').style.display = 'none';
+      document.getElementById('appShell').style.display = 'block';
+      document.getElementById('dashboardView').style.display = 'block';
+      document.getElementById('lessonView').style.display = 'none';
+      document.getElementById('leaderboardView').style.display = 'none';
+
+      updateNavStats();
+      renderGrid();
+      window.scrollTo({ top: 0 });
+    }
+
+    function logout() {
+      saveState();
+      sessionStorage.removeItem(SESSION_USER_KEY);
+      currentUser = null;
+      userProgress = createDefaultProgress();
+
+      document.getElementById('appShell').style.display = 'none';
+      document.getElementById('loginView').style.display = 'flex';
+      document.getElementById('loginPassword').value = '';
+      document.getElementById('loginError').innerText = '';
+      document.getElementById('loginUsername').focus();
+      window.scrollTo({ top: 0 });
+    }
+
+    function saveState() {
+      if (!currentUser) return;
+      userProgress.updatedAt = new Date().toISOString();
+      localStorage.setItem(getProgressKey(currentUser), JSON.stringify(userProgress));
+      updateNavStats();
+    }
+
+    function updateNavStats() {
+      document.getElementById('userTotalStars').innerText = userProgress.totalStars;
+    }
+
+    // Render Grid 60 ngày
+    function renderGrid() {
+      const container = document.getElementById('dayGridContainer');
+      container.innerHTML = '';
+
+      for (let day = 1; day <= 60; day++) {
+        const isCompleted = userProgress.completedDays[day];
+        const isLocked = day > userProgress.unlockedDay;
+        
+        const card = document.createElement('div');
+        card.className = `day-card ${isLocked ? 'locked' : ''} ${isCompleted ? 'completed' : ''}`;
+        
+        let iconHtml = '<div class="animal-avatar">🔒</div>';
+        let statusText = 'Chưa mở';
+
+        if (isCompleted) {
+          iconHtml = `<div class="animal-avatar">${ANIMAL_LIST[day - 1]}</div>`;
+          statusText = '⭐ Hoàn thành';
+        } else if (!isLocked) {
+          iconHtml = `<div class="animal-avatar">📖</div>`;
+          statusText = 'Đang mở';
+        }
+
+        card.innerHTML = `
+          <div class="day-number">Ngày ${day}</div>
+          ${iconHtml}
+          <div class="day-status">${statusText}</div>
+        `;
+
+        if (!isLocked) {
+          card.onclick = () => openDayLesson(day);
+        }
+
+        container.appendChild(card);
+      }
+    }
+
+    // Mở chi tiết 1 bài đọc
+    function openDayLesson(day) {
+      currentOpenDay = day;
+      userProgress.lastOpenDay = day;
+      saveState();
+      const lesson = LESSON_DATA[day];
+      
+      document.getElementById('dashboardView').style.display = 'none';
+      document.getElementById('leaderboardView').style.display = 'none';
+      document.getElementById('lessonView').style.display = 'block';
+
+      document.getElementById('lessonTitle').innerText = `Ngày ${day}: ${lesson.title}`;
+      document.getElementById('passageContent').innerText = lesson.passage;
+
+      renderQuestions(day);
+      checkDayCompletion(day, false);
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    // Render 10 câu hỏi & xử lý làm lại không giới hạn
+    function renderQuestions(day) {
+      const qContainer = document.getElementById('questionsContainer');
+      qContainer.innerHTML = '';
+      const lesson = LESSON_DATA[day];
+      if (!userProgress.currentDayAnswers[day]) {
+        userProgress.currentDayAnswers[day] = {};
+      }
+
+      lesson.questions.forEach((item, qIdx) => {
+        const isAnsweredCorrect = userProgress.currentDayAnswers[day][qIdx] === true;
+
+        const qBox = document.createElement('div');
+        qBox.className = 'question-item';
+        qBox.id = `qbox_${qIdx}`;
+
+        const qTitle = document.createElement('div');
+        qTitle.className = 'q-title';
+        qTitle.innerText = item.q;
+        qBox.appendChild(qTitle);
+
+        const optionsDiv = document.createElement('div');
+        optionsDiv.className = 'options-grid';
+
+        item.options.forEach((optText, optIdx) => {
+          const btn = document.createElement('button');
+          btn.className = 'option-btn';
+          btn.innerText = optText;
+
+          if (isAnsweredCorrect) {
+            if (optIdx === item.correct) {
+              btn.classList.add('correct');
+            }
+            btn.disabled = true;
+          } else {
+            btn.onclick = () => handleAnswer(day, qIdx, optIdx, item.correct, btn, qBox);
+          }
+
+          optionsDiv.appendChild(btn);
+        });
+
+        qBox.appendChild(optionsDiv);
+
+        const feedback = document.createElement('div');
+        feedback.className = 'feedback-msg';
+        feedback.id = `feedback_${qIdx}`;
+        if (isAnsweredCorrect) {
+          feedback.classList.add('ok');
+          feedback.innerText = '✓ Chính xác (+10 sao)';
+        }
+        qBox.appendChild(feedback);
+
+        qContainer.appendChild(qBox);
+      });
+    }
+
+    // Xử lý chọn đáp án
+    function handleAnswer(day, qIdx, selectedIdx, correctIdx, btnElement, qBox) {
+      const feedback = qBox.querySelector('.feedback-msg');
+      const allBtns = qBox.querySelectorAll('.option-btn');
+
+      if (selectedIdx === correctIdx) {
+        btnElement.classList.add('correct');
+        allBtns.forEach(b => b.disabled = true);
+        feedback.className = 'feedback-msg ok';
+        feedback.innerText = '✓ Chính xác! (+10 sao)';
+        
+        userProgress.currentDayAnswers[day][qIdx] = true;
+        userProgress.totalStars += 10;
+        saveState();
+
+        checkDayCompletion(day, true);
+      } else {
+        btnElement.classList.add('incorrect');
+        feedback.className = 'feedback-msg error';
+        feedback.innerText = '✗ Chưa chính xác. Hãy đọc kỹ lại đoạn văn và thử lại nhé!';
+        setTimeout(() => {
+          btnElement.classList.remove('incorrect');
+        }, 1200);
+      }
+    }
+
+    // Kiểm tra đã đúng hết 10 câu của ngày chưa
+    function checkDayCompletion(day, showAnimation) {
+      const answers = userProgress.currentDayAnswers[day] || {};
+      let totalCorrect = 0;
+      for (let i = 0; i < 10; i++) {
+        if (answers[i] === true) totalCorrect++;
+      }
+
+      const completionBox = document.getElementById('dayCompletionBox');
+      if (totalCorrect === 10) {
+        userProgress.completedDays[day] = true;
+        if (userProgress.unlockedDay === day && day < 60) {
+          userProgress.unlockedDay = day + 1;
+        }
+        saveState();
+
+        document.getElementById('unlockedAnimalIcon').innerText = ANIMAL_LIST[day - 1];
+        completionBox.style.display = 'block';
+        if (showAnimation) {
+          completionBox.scrollIntoView({ behavior: 'smooth' });
+        }
+      } else {
+        completionBox.style.display = 'none';
+      }
+    }
+
+    // Điều hướng View
+    function backToDashboard() {
+      document.getElementById('lessonView').style.display = 'none';
+      document.getElementById('leaderboardView').style.display = 'none';
+      document.getElementById('dashboardView').style.display = 'block';
+      renderGrid();
+    }
+
+    function toggleView(view) {
+      if (view === 'leaderboard') {
+        document.getElementById('dashboardView').style.display = 'none';
+        document.getElementById('lessonView').style.display = 'none';
+        document.getElementById('leaderboardView').style.display = 'block';
+        renderLeaderboard();
+      }
+    }
+
+    // Render Bảng xếp hạng
+    function renderLeaderboard() {
+      const tbody = document.getElementById('leaderboardTbody');
+      tbody.innerHTML = '';
+
+      // Chỉ hiển thị tiến độ thực tế của 3 tài khoản trong hệ thống.
+      const fullList = APP_USERS.map((username, userIndex) => {
+        const progress = username === currentUser
+          ? userProgress
+          : (readStoredProgress(getProgressKey(username)) || createDefaultProgress());
+
+        const completedCount = Object.values(progress.completedDays)
+          .filter(isCompleted => isCompleted === true).length;
+
+        return {
+          name: username,
+          completed: completedCount,
+          stars: progress.totalStars,
+          isUser: username === currentUser,
+          userIndex
+        };
+      }).sort((a, b) =>
+        b.stars - a.stars ||
+        b.completed - a.completed ||
+        a.userIndex - b.userIndex
+      );
+
+      fullList.forEach((item, index) => {
+        const tr = document.createElement('tr');
+        if (item.isUser) tr.className = 'highlight';
+
+        let rankBadgeClass = '';
+        if (index === 0) rankBadgeClass = 'rank-1';
+        if (index === 1) rankBadgeClass = 'rank-2';
+        if (index === 2) rankBadgeClass = 'rank-3';
+
+        tr.innerHTML = `
+          <td><span class="badge-rank ${rankBadgeClass}">${index + 1}</span></td>
+          <td>${item.name}${item.isUser ? ' (Bạn)' : ''}</td>
+          <td>${item.completed} / 60 ngày</td>
+          <td style="color: var(--accent); font-weight: bold;">⭐ ${item.stars}</td>
+        `;
+        tbody.appendChild(tr);
+      });
+    }
+
+    // Chạy khởi tạo: duy trì đăng nhập khi tải lại trang trong cùng phiên.
+    const sessionUser = sessionStorage.getItem(SESSION_USER_KEY);
+    if (APP_USERS.includes(sessionUser)) {
+      startUserSession(sessionUser);
+    } else {
+      document.getElementById('loginUsername').focus();
+    }
+  </script>
+</body>
+</html>
