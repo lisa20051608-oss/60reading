@@ -329,108 +329,108 @@ const LESSON_DATA = {
 
   // NGÀY 4
   4: {
-    title: "How We Grow and Change",
-    passage: "When we grow up, our bodies change a lot. Children grow taller every year. Sometimes, your clothes and shoes become too small very quickly. Boys and girls often look different when they become teenagers. Some children become tall and thin, while other children become strong. Many teenagers get small red spots on their face. This is normal, and it goes away after some time. Doctors say that everyone grows in a different way. You do not need to worry about your face or your height. To stay healthy and active, you should eat good food like vegetables, fruit, and eggs. You should also drink water and sleep eight hours every night. Playing sports with your friends helps you become strong and confident.",
+    title: "How Physical Appearance Changes as We Grow Up",
+    passage: "During adolescence, human bodies undergo tremendous physical transformations that can sometimes feel overwhelming. Teenagers frequently experience rapid growth spurts, resulting in noticeable changes in their height, posture, and facial features. Skin conditions such as temporary acne often appear due to hormonal fluctuations, causing some young individuals to feel self-conscious. While some teenagers develop an athletic and robust physique through sports, others may appear slender or clumsy as their limbs lengthen quickly. Sociologists suggest that comparing one's appearance with idealized images on social media often leads to unnecessary body dissatisfaction. Medical experts emphasize that physical diversity is completely natural and healthy during human development. Instead of worrying excessively about superficial looks, adolescents should focus on balanced nutrition, regular physical activity, and building inner self-confidence. True attractiveness ultimately stems from good health, positive energy, and self-respect.",
     questions: [
       {
-        q: "1. What is this passage about?",
+        q: "1. What is the main idea of the passage?",
         options: [
-          "How our bodies grow and change",
-          "The best clothes for children",
-          "How to cook vegetables and eggs",
-          "Playing video games with friends"
+          "The best skincare treatments for teenage acne",
+          "Physical changes during puberty and the importance of healthy self-acceptance",
+          "How to train professionally to become an athletic teenager",
+          "The negative influence of social media on modern entertainment"
         ],
-        correct: 0
+        correct: 1
       },
       {
-        q: "2. What happens when children grow taller quickly?",
+        q: "2. What can be inferred about teenagers' emotional response to bodily changes?",
         options: [
-          "Their clothes and shoes become too small",
-          "They cannot run or walk",
-          "They stop eating food",
-          "They do not need to sleep"
+          "They always feel completely confident regardless of physical transformations",
+          "They may experience insecurity when comparing themselves to idealized standards",
+          "They prefer ignoring all physical health and nutritional guidelines",
+          "They are unconcerned about their appearance or skin conditions"
         ],
-        correct: 0
+        correct: 1
       },
       {
-        q: "3. Which sentence is TRUE according to the text?",
+        q: "3. Which of the following statements is TRUE according to the passage?",
         options: [
-          "Red spots on the face never go away",
-          "All children grow at the exact same speed",
-          "Everyone grows in a different way",
-          "Teenagers should not play sports"
+          "Physical transformations during adolescence are uniform for everyone",
+          "Acne is permanent and cannot be mitigated by natural body balance",
+          "Biological variations in growth and body shapes are entirely normal",
+          "Superficial appearance is the most important factor in teenage success"
         ],
         correct: 2
       },
       {
-        q: "4. What should you eat to stay healthy?",
+        q: "4. According to medical experts, what should young people prioritize instead of worrying about looks?",
         options: [
-          "Fast food and candy every day",
-          "Good food like fruit, vegetables, and eggs",
-          "Only sweet cakes",
-          "Cold soft drinks"
+          "Purchasing high-end cosmetics and trendy clothing",
+          "Maintaining balanced nutrition, regular exercise, and self-confidence",
+          "Following strict dietary restrictions to stay slender",
+          "Spending more time editing photographs online"
         ],
         correct: 1
       },
       {
-        q: "5. What helps you feel confident and strong?",
+        q: "5. What is mentioned as the ultimate source of genuine attractiveness?",
         options: [
-          "Staying in bed all day",
-          "Buying expensive shoes",
-          "Playing sports with your friends",
-          "Watching television at night"
+          "Flawless facial features and tall stature",
+          "Expensive fashion accessories and athletic gear",
+          "Good health, positive mindset, and self-respect",
+          "Strict adherence to social media beauty trends"
         ],
         correct: 2
       },
       {
-        q: "6. The word 'worry' in the story means",
+        q: "6. The word 'tremendous' in the passage is CLOSEST in meaning to _______.",
         options: [
-          "feel anxious or afraid",
-          "smile",
-          "jump",
-          "sing"
+          "huge / enormous",
+          "tiny",
+          "unimportant",
+          "slow"
         ],
         correct: 0
       },
       {
-        q: "7. The word 'active' in the story means",
+        q: "7. The word 'robust' in the passage is CLOSEST in meaning to _______.",
         options: [
-          "sleepy",
-          "full of energy / moving a lot",
-          "slow",
-          "quiet"
+          "fragile",
+          "strong and healthy",
+          "sickly",
+          "slender"
         ],
         correct: 1
       },
       {
-        q: "8. The word 'confident' in the story means",
+        q: "8. The word 'adolescence' in the passage is CLOSEST in meaning to _______.",
         options: [
-          "feeling sure of yourself",
-          "shy and afraid",
-          "sad",
-          "hungry"
-        ],
-        correct: 0
-      },
-      {
-        q: "9. The word 'strong' is the OPPOSITE of",
-        options: [
-          "big",
-          "weak / not strong",
-          "fast",
-          "tall"
+          "infancy",
+          "teenage years / youth",
+          "elderly age",
+          "adulthood"
         ],
         correct: 1
       },
       {
-        q: "10. The word 'healthy' is the OPPOSITE of",
+        q: "9. The word 'superficial' in the passage is OPPOSITE in meaning to _______.",
         options: [
-          "sick / unhealthy",
-          "clean",
-          "good",
-          "fresh"
+          "shallow",
+          "external",
+          "deep / profound",
+          "apparent"
         ],
-        correct: 0
+        correct: 2
+      },
+      {
+        q: "10. The word 'temporary' in the passage is OPPOSITE in meaning to _______.",
+        options: [
+          "brief",
+          "permanent / lasting",
+          "short-lived",
+          "momentary"
+        ],
+        correct: 1
       }
     ]
   },
@@ -438,105 +438,105 @@ const LESSON_DATA = {
   // NGÀY 5
   5: {
     title: "Hard-working Students vs. Lazy Habits",
-    passage: "At school, some students work hard, while others have lazy habits. Nam is a diligent student. He always finishes his homework on time because he wants to get good grades. Even though some math exercises are very difficult, he does not give up and keeps trying. In spite of feeling tired after sports class, he still reviews his lessons before going to bed. However, his friend Phong has different habits. Phong often delays his homework because he prefers playing computer games. Although Phong is very smart, he usually gets low marks. Teachers always advise students to build good daily habits. When you work hard, you can achieve great success at school and feel proud of yourself.",
+    passage: "Academic success is rarely determined by innate talent alone; it relies heavily on consistent self-discipline and effective daily routines. Diligent students typically establish clear study timetables, complete assignments promptly, and actively participate in classroom discussions. When encountering intricate academic concepts, they demonstrate perseverance by researching reference materials or seeking guidance from mentors. Conversely, students trapped in passive habits frequently procrastinate, delaying essential tasks until the final hour before deadlines. This chronic negligence inevitably leads to heightened stress, subpar exam results, and diminished self-esteem. Developing proactive learning habits requires conscious effort, such as eliminating digital distractions and setting realistic short-term milestones. By transforming sluggish tendencies into productive dedication, any learner can unlock their intellectual potential and attain sustainable scholastic progress.",
     questions: [
       {
-        q: "1. What is the main idea of this story?",
+        q: "1. What is the central theme of the passage?",
         options: [
-          "How to play computer games",
-          "The difference between hard-working and lazy habits",
-          "Playing sports after school hours",
-          "Why math is an easy subject"
+          "The superiority of natural talent over continuous practice",
+          "The contrast between diligent study habits and the drawbacks of procrastination",
+          "Techniques for preparing for university entrance examinations",
+          "How teachers should manage disruptive classroom behavior"
         ],
         correct: 1
       },
       {
-        q: "2. Why does Nam finish his homework on time?",
+        q: "2. What can be inferred about students who consistently procrastinate?",
         options: [
-          "Because he wants to get good grades",
-          "Because his parents force him to stay home",
-          "Because he has no friends to play with",
-          "Because he dislikes sports"
+          "They achieve superior exam grades due to sudden bursts of pressure",
+          "They suffer from avoidable stress and underperform academically",
+          "They possess greater creativity than structured students",
+          "They require no guidance to overcome complex subjects"
         ],
-        correct: 0
+        correct: 1
       },
       {
-        q: "3. Which sentence is TRUE about Nam?",
+        q: "3. Which of the following is TRUE about hard-working students according to the text?",
         options: [
-          "He never does his homework",
-          "He gives up easily when exercises are hard",
-          "He reviews his lessons even when he feels tired",
-          "He always gets bad marks at school"
+          "They give up immediately when encountering complex knowledge",
+          "They rely solely on natural intelligence without setting schedules",
+          "They demonstrate determination and seek help when solving problems",
+          "They study continuously without taking necessary rest breaks"
         ],
         correct: 2
       },
       {
-        q: "4. Why does Phong usually get low marks?",
+        q: "4. What practical step is recommended to overcome unproductive study habits?",
         options: [
-          "Because he cannot read books",
-          "Because he delays his homework to play games",
-          "Because he is sick every week",
-          "Because the tests are too long"
+          "Studying overnight right before major examination days",
+          "Removing digital distractions and establishing achievable goals",
+          "Memorizing entire textbooks without understanding core concepts",
+          "Avoiding participation in interactive classroom discussions"
         ],
         correct: 1
       },
       {
-        q: "5. What is Phong like according to the text?",
+        q: "5. According to the author, what is essential to unlocking intellectual potential?",
         options: [
-          "He is smart, but he has lazy habits",
-          "He works harder than Nam every day",
-          "He does not like playing computer games",
-          "He always listens to the teacher"
+          "Relying exclusively on innate abilities",
+          "Replacing lazy tendencies with purposeful dedication",
+          "Attending multiple extracurricular tutoring centers",
+          "Competing aggressively against high-performing peers"
+        ],
+        correct: 1
+      },
+      {
+        q: "6. The word 'diligent' in the passage is CLOSEST in meaning to _______.",
+        options: [
+          "hard-working / industrious",
+          "careless",
+          "sluggish",
+          "inactive"
         ],
         correct: 0
       },
       {
-        q: "6. The word 'diligent' in the story means",
+        q: "7. The word 'perseverance' in the passage is CLOSEST in meaning to _______.",
         options: [
-          "lazy",
-          "hard-working",
-          "sleepy",
-          "slow"
+          "persistence / determination",
+          "hesitation",
+          "weakness",
+          "laziness"
         ],
-        correct: 1
+        correct: 0
       },
       {
-        q: "7. The word 'achieve' in the story means",
+        q: "8. The word 'attain' in the passage is CLOSEST in meaning to _______.",
         options: [
-          "reach / get successfully",
           "lose",
-          "forget",
-          "break"
-        ],
-        correct: 0
-      },
-      {
-        q: "8. The word 'difficult' in the story means",
-        options: [
-          "easy",
-          "hard / not easy",
-          "funny",
-          "short"
+          "achieve / accomplish",
+          "neglect",
+          "prevent"
         ],
         correct: 1
       },
       {
-        q: "9. The word 'diligent' is the OPPOSITE of",
+        q: "9. The word 'procrastinate' in the passage is OPPOSITE in meaning to _______.",
         options: [
-          "lazy",
-          "active",
-          "kind",
-          "happy"
+          "delay",
+          "postpone",
+          "act immediately / do promptly",
+          "hesitate"
         ],
-        correct: 0
+        correct: 2
       },
       {
-        q: "10. The word 'success' is the OPPOSITE of",
+        q: "10. The word 'sluggish' in the passage is OPPOSITE in meaning to _______.",
         options: [
-          "victory",
-          "failure",
-          "joy",
-          "luck"
+          "slow",
+          "energetic / active",
+          "inactive",
+          "lazy"
         ],
         correct: 1
       }
@@ -546,105 +546,105 @@ const LESSON_DATA = {
   // NGÀY 6
   6: {
     title: "Good Manners: Why Being Polite Opens Every Door",
-    passage: "Good manners are very important in our daily life. When you ask for help, you should always say \"please\". Because saying \"thank you\" makes other people happy, polite children use it every day. Although having good manners is very simple, some children forget to practice it. For example, some students interrupt when their teacher is talking. However, well-behaved students always listen quietly until the teacher finishes. In spite of being angry or upset, a polite person does not shout at friends. Even though you may disagree with someone, you can still speak softly and show respect. When you are courteous to others, people will always be ready to support and welcome you.",
+    passage: "Politeness is a fundamental social virtue that plays an essential role in fostering mutual respect and building harmonious communities. Simple courteous gestures, such as saying 'please' when requesting assistance and expressing sincere gratitude, leave lasting positive impressions on others. Courteous people are attentive listeners who refrain from interrupting conversations abruptly, making everyone around them feel valued. In educational and professional settings, displaying good etiquette toward teachers, colleagues, and strangers demonstrates maturity and emotional intelligence. In contrast, insolent behavior and discourteous speech often provoke unnecessary friction and damage valuable interpersonal relationships. Cultivating refined manners does not require extraordinary effort, but rather thoughtful mindfulness in daily interactions. Ultimately, practicing civility consistently creates goodwill, resolves social conflicts smoothly, and unlocks numerous opportunities in life.",
     questions: [
       {
-        q: "1. What is the main message of the passage?",
+        q: "1. What is the primary focus of the entire passage?",
         options: [
-          "Why being polite and having good manners is important",
-          "How to talk loudly in a classroom",
-          "Playing games with angry friends",
-          "Why students should stay home"
-        ],
-        correct: 0
-      },
-      {
-        q: "2. What should you say when you ask someone for help?",
-        options: [
-          "\"Goodbye\"",
-          "\"Please\"",
-          "\"No\"",
-          "\"Wait\""
+          "The historical origins of greeting rituals across cultures",
+          "The vital importance of polite manners in building relationships and success",
+          "How to resolve intense legal conflicts in business corporations",
+          "Rules of communication exclusively designed for school classrooms"
         ],
         correct: 1
       },
       {
-        q: "3. Which sentence is TRUE about well-behaved students?",
+        q: "2. What can be inferred about individuals who exhibit insolent behavior?",
         options: [
-          "They shout when they disagree with friends",
-          "They interrupt teachers during class",
-          "They listen quietly until the speaker finishes",
-          "They never say thank you to anyone"
-        ],
-        correct: 2
-      },
-      {
-        q: "4. What does a polite person do when feeling angry?",
-        options: [
-          "Shouts loudly at classmates",
-          "Does not shout and speaks softly",
-          "Leaves the school immediately",
-          "Breaks pencils and books"
+          "They easily earn broad social respect and leadership roles",
+          "They tend to create unnecessary hostility and harm their connections",
+          "They communicate more effectively than polite individuals",
+          "They achieve professional milestones faster than their peers"
         ],
         correct: 1
       },
       {
-        q: "5. Why should people use good manners every day?",
+        q: "3. Which of the following is TRUE about polite people according to the text?",
         options: [
-          "Because it makes others happy and builds good friendships",
-          "Because it helps them buy expensive toys",
-          "Because it allows them to skip homework",
-          "Because teachers give them free candy"
+          "They frequently cut off others while speaking to show knowledge",
+          "They listen attentively and avoid interrupting speakers rudely",
+          "They only display courteous etiquette when receiving monetary rewards",
+          "They avoid interacting with strangers in public settings"
+        ],
+        correct: 1
+      },
+      {
+        q: "4. In academic and work environments, what does practicing good manners demonstrate?",
+        options: [
+          "Maturity and emotional intelligence",
+          "Weakness and lack of assertiveness",
+          "Unwillingness to express personal opinions",
+          "A desire to avoid difficult professional duties"
         ],
         correct: 0
       },
       {
-        q: "6. The word 'courteous' in the story means",
+        q: "5. According to the author, how can one successfully cultivate good etiquette?",
         options: [
-          "polite and respectful",
-          "noisy",
+          "By attending formal aristocratic etiquette courses",
+          "Through daily mindfulness and thoughtful consideration in interactions",
+          "By remaining completely silent during social gatherings",
+          "By mimicking theatrical behaviors in public spaces"
+        ],
+        correct: 1
+      },
+      {
+        q: "6. The word 'courteous' in the passage is CLOSEST in meaning to _______.",
+        options: [
+          "polite / well-mannered",
+          "aggressive",
+          "disrespectful",
+          "impatient"
+        ],
+        correct: 0
+      },
+      {
+        q: "7. The word 'gratitude' in the passage is CLOSEST in meaning to _______.",
+        options: [
+          "thankfulness / appreciation",
+          "resentment",
+          "anger",
+          "disappointment"
+        ],
+        correct: 0
+      },
+      {
+        q: "8. The word 'civility' in the passage is CLOSEST in meaning to _______.",
+        options: [
+          "politeness / good etiquette",
+          "hostility",
+          "chaos",
+          "dishonesty"
+        ],
+        correct: 0
+      },
+      {
+        q: "9. The word 'insolent' in the passage is OPPOSITE in meaning to _______.",
+        options: [
           "rude",
-          "afraid"
-        ],
-        correct: 0
-      },
-      {
-        q: "7. The word 'support' in the story means",
-        options: [
-          "hurt",
-          "help / assist",
-          "ignore",
-          "stop"
+          "respectful / polite",
+          "arrogant",
+          "offensive"
         ],
         correct: 1
       },
       {
-        q: "8. The word 'upset' in the story means",
+        q: "10. The word 'friction' in the passage is OPPOSITE in meaning to _______.",
         options: [
-          "unhappy or worried",
-          "joyful",
-          "sleepy",
-          "hungry"
-        ],
-        correct: 0
-      },
-      {
-        q: "9. The word 'polite' is the OPPOSITE of",
-        options: [
-          "kind",
-          "rude",
-          "gentle",
-          "honest"
-        ],
-        correct: 1
-      },
-      {
-        q: "10. The word 'quietly' is the OPPOSITE of",
-        options: [
-          "softly",
-          "loudly",
-          "slowly",
-          "calmly"
+          "conflict",
+          "harmony / agreement",
+          "disagreement",
+          "tension"
         ],
         correct: 1
       }
@@ -654,107 +654,107 @@ const LESSON_DATA = {
   // NGÀY 7
   7: {
     title: "A Memorable Family Gathering on New Year's Eve",
-    passage: "New Year's Eve is the happiest time of the year for my family. Although my uncle lives far away in another city, he always comes back home for this special holiday. My grandmother cooks traditional food in the kitchen, while my cousins and I clean the living room. In spite of the cold winter weather outside, our house is warm and full of laughter. Around midnight, everyone sits together to eat and talk. However, the children are most excited about receiving lucky money. My grandfather gives each child a red envelope because it brings good luck for the new year. Even though the party ends late at night, nobody feels tired. We all feel very grateful to have such a loving and happy family.",
+    passage: "New Year's Eve is traditionally the most anticipated festive celebration for our extended family. Relatives from various provinces travel long distances to reunite at my grandparents' ancestral home in the countryside. The entire household becomes vibrant as adults enthusiastically prepare traditional dishes while children laugh and play traditional games in the courtyard. As midnight approaches, we gather around the festive table, reminiscing about the past year's achievements and extending heartfelt wishes for health and prosperity. My grandfather traditionally bestows red envelopes containing lucky money upon the younger generation, along with words of moral wisdom. This meaningful ritual not only honors ancestral heritage but also strengthens the emotional solidarity among generations. In an increasingly fast-paced modern world, preserving these festive family traditions provides a peaceful sanctuary of love, warmth, and lifelong belonging.",
     questions: [
       {
-        q: "1. What is this passage mainly about?",
+        q: "1. What is the central theme of the passage?",
         options: [
-          "A fun trip to a foreign country",
-          "A warm family gathering on New Year's Eve",
-          "How to cook meals in a restaurant",
-          "Buying new clothes in a shopping mall"
+          "The economic impact of long-distance holiday travel",
+          "The emotional significance and joyful traditions of a New Year family reunion",
+          "Traditional culinary recipes for festive holiday feasts",
+          "How modern technology replaces ancestral holiday practices"
         ],
         correct: 1
       },
       {
-        q: "2. Why does the uncle travel back home?",
+        q: "2. What can be inferred about the atmosphere of the gathering?",
         options: [
-          "Because he wants to find a new job",
-          "Because he wants to join the New Year family gathering",
-          "Because his house is too cold",
-          "Because he needs to buy a car"
+          "It is formal, tense, and strictly quiet throughout the night",
+          "It is cheerful, affectionate, and brimming with warmth and connection",
+          "It causes exhaustion and frustration among family members",
+          "It is rushed because relatives must leave before midnight"
         ],
         correct: 1
       },
       {
-        q: "3. Which sentence is TRUE according to the passage?",
+        q: "3. Which of the following activities is mentioned as part of the celebration?",
         options: [
-          "The house is warm and cheerful in spite of cold weather",
-          "The children go to bed very early before midnight",
-          "The grandmother buys fast food from a supermarket",
-          "Nobody talks during the holiday dinner"
+          "Traveling abroad to explore foreign cultures",
+          "Gathering to share achievements, wishes, and receiving lucky money",
+          "Remaining in separate rooms to watch television programs",
+          "Shopping at crowded metropolitan commercial centers"
+        ],
+        correct: 1
+      },
+      {
+        q: "4. What role does the grandfather play during the midnight celebration?",
+        options: [
+          "He cooks all the traditional dishes alone in the kitchen",
+          "He distributes lucky money and imparts meaningful words of wisdom",
+          "He organizes athletic competitions for the children in the courtyard",
+          "He oversees the travel arrangements for visiting relatives"
+        ],
+        correct: 1
+      },
+      {
+        q: "5. According to the conclusion, why is preserving family traditions essential today?",
+        options: [
+          "To demonstrate family affluence to local neighbors",
+          "To offer a peaceful shelter of love and belonging in a fast-paced society",
+          "To ensure children obey strict historical household rules",
+          "To replace modern communication tools completely"
+        ],
+        correct: 1
+      },
+      {
+        q: "6. The word 'anticipated' in the passage is CLOSEST in meaning to _______.",
+        options: [
+          "eagerly awaited / expected",
+          "dreaded",
+          "unexpected",
+          "ignored"
         ],
         correct: 0
       },
       {
-        q: "4. Why does the grandfather give red envelopes to children?",
+        q: "7. The word 'prosperity' in the passage is CLOSEST in meaning to _______.",
         options: [
-          "Because it brings good luck for the new year",
-          "Because the children did all the cooking",
-          "Because it is a birthday present",
-          "Because he wants them to leave early"
+          "wealth and success",
+          "poverty",
+          "hardship",
+          "sickness"
         ],
         correct: 0
       },
       {
-        q: "5. How do the family members feel at the end of the evening?",
+        q: "8. The word 'solidarity' in the passage is CLOSEST in meaning to _______.",
         options: [
-          "Angry and bored",
-          "Tired and sleepy",
-          "Grateful and happy",
-          "Lonely and sad"
+          "unity / mutual support",
+          "division",
+          "isolation",
+          "disagreement"
+        ],
+        correct: 0
+      },
+      {
+        q: "9. The word 'vibrant' in the passage is OPPOSITE in meaning to _______.",
+        options: [
+          "lively",
+          "dull / lifeless",
+          "energetic",
+          "cheerful"
+        ],
+        correct: 1
+      },
+      {
+        q: "10. The word 'preserve' in the passage is OPPOSITE in meaning to _______.",
+        options: [
+          "protect",
+          "maintain",
+          "abandon / destroy",
+          "treasure"
         ],
         correct: 2
-      },
-      {
-        q: "6. The word 'grateful' in the story means",
-        options: [
-          "thankful",
-          "angry",
-          "hungry",
-          "scared"
-        ],
-        correct: 0
-      },
-      {
-        q: "7. The word 'traditional' in the story means",
-        options: [
-          "customary / from long ago",
-          "strange",
-          "brand-new",
-          "expensive"
-        ],
-        correct: 0
-      },
-      {
-        q: "8. The word 'gathering' in the story means",
-        options: [
-          "meeting together",
-          "running fast",
-          "sleeping alone",
-          "shopping online"
-        ],
-        correct: 0
-      },
-      {
-        q: "9. The word 'warm' is the OPPOSITE of",
-        options: [
-          "hot",
-          "cold",
-          "sunny",
-          "bright"
-        ],
-        correct: 1
-      },
-      {
-        q: "10. The word 'receive' is the OPPOSITE of",
-        options: [
-          "take",
-          "give",
-          "get",
-          "hold"
-        ],
-        correct: 1
       }
     ]
   },
@@ -766,107 +766,107 @@ const LESSON_DATA = {
   // NGÀY 8
   8: {
     title: "The Golden Morning Routine: Why Waking Up Early Matters",
-    passage: "Waking up early in the morning gives you a great start to the day. Although your bed is very warm and cozy, staying in bed too long can make you feel slow and lazy. Because the morning hours are quiet, you can prepare your books and clothes without rushing. In spite of feeling a little sleepy at first, doing five minutes of light exercise will help your body wake up. However, many students stay up late looking at their phones, so they find it hard to get out of bed. Even though changing your habit takes time, waking up early brings great energy. When you have enough time to eat a healthy breakfast, your brain works much better at school.",
+    passage: "Establishing a consistent early morning routine is widely considered one of the most effective strategies for personal growth and productivity. Rising before sunrise offers a tranquil atmosphere free from digital notifications, noisy traffic, and urgent demands. During these serene early hours, individuals can engage in mindfulness meditation, gentle physical stretching, or organizing their primary tasks for the day ahead. Eating a wholesome breakfast without rushing provides the physical energy required for intense mental concentration. Research indicates that early risers tend to exhibit proactive attitudes, better emotional stability, and superior problem-solving capabilities throughout the workday. Conversely, repeatedly snoozing alarms often results in chaotic mornings, elevated stress hormones, and chronic fatigue. By committing to an early bedtime and welcoming the dawn with purposeful intentions, anyone can cultivate vitality, clarity, and steady accomplishment in their daily life.",
     questions: [
       {
-        q: "1. What is the main idea of this text?",
+        q: "1. What is the primary focus of the entire passage?",
         options: [
-          "Why playing games at night is fun",
-          "The benefits of waking up early in the morning",
-          "How to choose good school clothes",
-          "The best breakfast recipes for children"
+          "The historical origins of time management theories",
+          "The practical benefits and positive impact of an early morning routine",
+          "Nutritional recipes for preparing quick office breakfasts",
+          "How to cure chronic insomnia without medical intervention"
         ],
         correct: 1
       },
       {
-        q: "2. Why is it easy to organize things in the early morning?",
+        q: "2. What can be inferred about individuals who frequently snooze their morning alarms?",
         options: [
-          "Because the house and streets are quiet",
-          "Because schools open very early",
-          "Because phones make loud noises",
-          "Because friends come to visit"
-        ],
-        correct: 0
-      },
-      {
-        q: "3. Which sentence is TRUE according to the passage?",
-        options: [
-          "Light morning exercise helps the body wake up",
-          "Staying in bed all morning gives you more energy",
-          "Eating breakfast makes your brain work slower",
-          "Waking up early is impossible for young students"
-        ],
-        correct: 0
-      },
-      {
-        q: "4. Why do many students find it hard to get up early?",
-        options: [
-          "Because they eat too much fruit",
-          "Because they stay up late looking at their phones",
-          "Because their alarm clocks are too loud",
-          "Because they walk to school every day"
+          "They usually experience more peaceful and creative working hours",
+          "They tend to start their days with heightened stress and disorganization",
+          "They exhibit superior concentration compared to early risers",
+          "They require no planning to achieve academic milestones"
         ],
         correct: 1
       },
       {
-        q: "5. What happens when you eat a good breakfast?",
+        q: "3. Which of the following is TRUE about the early morning hours according to the text?",
         options: [
-          "You feel sick during class",
-          "Your brain works much better at school",
-          "You need to sleep immediately",
-          "You forget your school books"
+          "They are usually interrupted by heavy workplace communication",
+          "They provide a calm environment suitable for self-care and planning",
+          "They cause physical exhaustion if used for gentle stretching",
+          "They require individuals to skip breakfast to save time"
         ],
         correct: 1
       },
       {
-        q: "6. The word 'healthy' in the story means",
+        q: "4. What advantage do early risers often demonstrate according to research?",
         options: [
-          "good for your body",
-          "sweet",
-          "cold",
-          "bad"
+          "Higher emotional stability and proactive problem-solving abilities",
+          "Complete immunity to daily fatigue and seasonal illnesses",
+          "The ability to work late into the night without rest",
+          "A preference for isolated individual sports"
         ],
         correct: 0
       },
       {
-        q: "7. The word 'prepare' in the story means",
+        q: "5. What is suggested as a fundamental requirement to successfully wake up early?",
         options: [
-          "get ready",
-          "destroy",
-          "sell",
-          "hide"
+          "Consuming large amounts of caffeine before bed",
+          "Committing to an early bedtime and purposeful morning habits",
+          "Setting multiple loud alarms throughout the bedroom",
+          "Avoiding all physical activities during the evening"
+        ],
+        correct: 1
+      },
+      {
+        q: "6. The word 'tranquil' in the passage is CLOSEST in meaning to _______.",
+        options: [
+          "peaceful / serene",
+          "chaotic",
+          "crowded",
+          "dangerous"
         ],
         correct: 0
       },
       {
-        q: "8. The word 'cozy' in the story means",
+        q: "7. The word 'wholesome' in the passage is CLOSEST in meaning to _______.",
         options: [
-          "hard and dirty",
-          "dangerous",
-          "warm and comfortable",
-          "wet"
+          "toxic",
+          "nutritious / healthy",
+          "costly",
+          "flavorless"
+        ],
+        correct: 1
+      },
+      {
+        q: "8. The word 'vitality' in the passage is CLOSEST in meaning to _______.",
+        options: [
+          "energy / liveliness",
+          "weakness",
+          "laziness",
+          "confusion"
+        ],
+        correct: 0
+      },
+      {
+        q: "9. The word 'chaotic' in the passage is OPPOSITE in meaning to _______.",
+        options: [
+          "disorderly",
+          "orderly / organized",
+          "stressful",
+          "noisy"
+        ],
+        correct: 1
+      },
+      {
+        q: "10. The word 'elevated' in the passage is OPPOSITE in meaning to _______.",
+        options: [
+          "increased",
+          "higher",
+          "reduced / lowered",
+          "raised"
         ],
         correct: 2
-      },
-      {
-        q: "9. The word 'early' is the OPPOSITE of",
-        options: [
-          "quick",
-          "late",
-          "fast",
-          "soon"
-        ],
-        correct: 1
-      },
-      {
-        q: "10. The word 'quiet' is the OPPOSITE of",
-        options: [
-          "calm",
-          "noisy",
-          "small",
-          "soft"
-        ],
-        correct: 1
       }
     ]
   },
@@ -874,105 +874,105 @@ const LESSON_DATA = {
   // NGÀY 9
   9: {
     title: "Sharing Daily Chores to Keep Our Home Clean",
-    passage: "Keeping a house clean is not the job of only one person. In my home, everyone shares the daily chores. My father takes out the heavy trash bags because he is strong. My mother cooks dinner, while my sister and I wash the dishes after eating. Although washing dishes is not my favorite chore, I do it happily to help my parents. In spite of being busy with school homework, my sister always makes her bed every morning. However, on Saturday mornings, we all clean the house together. Even though cleaning takes two hours, we listen to music and talk cheerfully. Doing chores together teaches children to be responsible and makes our home a tidy, pleasant place to live.",
+    passage: "Maintaining a tidy and hygienic living space is a shared responsibility that requires the cooperation of every family member. When domestic chores are distributed equitably, no single individual feels overwhelmed by endless cleaning, cooking, and laundry. Children who participate in age-appropriate household duties, such as making their beds, dusting shelves, and sorting recyclables, develop essential life skills and a strong sense of accountability. Moreover, collaborating on weekend deep-cleaning sessions can foster team spirit, open communication, and genuine mutual appreciation within the household. A well-organized home environment not only eliminates hazardous clutter and dust but also reduces mental anxiety, promoting relaxation after demanding work or study hours. When everyone contributes willingly rather than treating housework as an annoying burden, the home becomes a truly harmonious, welcoming, and comfortable sanctuary for the whole family.",
     questions: [
       {
-        q: "1. What is the passage mainly about?",
+        q: "1. What is the central message of the passage?",
         options: [
-          "Cooking dinner in a restaurant",
-          "Sharing household chores to keep the house clean",
-          "Buying new furniture for the living room",
-          "Doing difficult homework on the weekend"
+          "The commercial value of hiring professional domestic cleaning agencies",
+          "The importance of distributing household chores fairly among family members",
+          "Modern architectural trends for designing low-maintenance houses",
+          "Why parents should exempt children from domestic responsibilities"
         ],
         correct: 1
       },
       {
-        q: "2. Why does the father take out the trash bags?",
+        q: "2. What can be inferred about children who regularly help with household chores?",
         options: [
-          "Because he is strong",
-          "Because he dislikes cooking",
-          "Because the children are sleeping",
-          "Because the mother tells him to leave"
+          "They suffer from academic decline due to heavy physical duties",
+          "They build practical competence, self-reliance, and personal responsibility",
+          "They tend to resent their parents for imposing domestic rules",
+          "They prefer living alone rather than staying with their family"
+        ],
+        correct: 1
+      },
+      {
+        q: "3. Which of the following is TRUE about an organized home according to the text?",
+        options: [
+          "It eliminates clutter and creates a relaxing mental atmosphere",
+          "It requires full-time professional supervision to maintain hygiene",
+          "It causes unnecessary arguments between working parents",
+          "It prevents family members from pursuing creative personal hobbies"
         ],
         correct: 0
       },
       {
-        q: "3. Which sentence is TRUE about the sister?",
+        q: "4. How can collaborative weekend cleaning benefit family dynamics?",
         options: [
-          "She refuses to help with any chores",
-          "She makes her bed in spite of being busy with homework",
-          "She washes all the clothes alone on Sunday",
-          "She never talks to her family members"
+          "By increasing financial savings on commercial cleaning tools",
+          "By strengthening mutual understanding, cooperation, and team spirit",
+          "By replacing the need for healthy homemade cooking",
+          "By enforcing strict behavioral punishments on younger siblings"
         ],
         correct: 1
       },
       {
-        q: "4. What does the family do on Saturday mornings?",
+        q: "5. What transformation occurs when housework is approached with willing cooperation?",
         options: [
-          "They go shopping in the mall",
-          "They stay in bed until noon",
-          "They clean the whole house together",
-          "They visit their grandparents in the village"
+          "Housework becomes entirely automated by modern machines",
+          "The home becomes an inviting, peaceful, and harmonious sanctuary",
+          "Family members spend less time communicating during the week",
+          "Parents no longer need to guide children on social manners"
+        ],
+        correct: 1
+      },
+      {
+        q: "6. The word 'equitably' in the passage is CLOSEST in meaning to _______.",
+        options: [
+          "fairly / equally",
+          "unevenly",
+          "strictly",
+          "partially"
+        ],
+        correct: 0
+      },
+      {
+        q: "7. The word 'accountability' in the passage is CLOSEST in meaning to _______.",
+        options: [
+          "responsibility / reliability",
+          "carelessness",
+          "hesitation",
+          "curiosity"
+        ],
+        correct: 0
+      },
+      {
+        q: "8. The word 'sanctuary' in the passage is CLOSEST in meaning to _______.",
+        options: [
+          "safe shelter / peaceful haven",
+          "busy workplace",
+          "crowded market",
+          "temporary tent"
+        ],
+        correct: 0
+      },
+      {
+        q: "9. The word 'hazardous' in the passage is OPPOSITE in meaning to _______.",
+        options: [
+          "risky",
+          "dangerous",
+          "safe / harmless",
+          "toxic"
         ],
         correct: 2
       },
       {
-        q: "5. What do children learn from doing daily chores?",
+        q: "10. The word 'willingly' in the passage is OPPOSITE in meaning to _______.",
         options: [
-          "How to spend money quickly",
-          "How to be responsible and helpful at home",
-          "How to build a big wooden house",
-          "How to avoid helping parents"
-        ],
-        correct: 1
-      },
-      {
-        q: "6. The word 'responsible' in the story means",
-        options: [
-          "caring and reliable",
-          "lazy",
-          "funny",
-          "scared"
-        ],
-        correct: 0
-      },
-      {
-        q: "7. The word 'chores' in the story means",
-        options: [
-          "small daily jobs at home",
-          "school sports competitions",
-          "video games",
-          "holiday presents"
-        ],
-        correct: 0
-      },
-      {
-        q: "8. The word 'tidy' in the story means",
-        options: [
-          "neat and clean",
-          "messy",
-          "dark",
-          "old"
-        ],
-        correct: 0
-      },
-      {
-        q: "9. The word 'clean' is the OPPOSITE of",
-        options: [
-          "dirty",
-          "tidy",
-          "fresh",
-          "bright"
-        ],
-        correct: 0
-      },
-      {
-        q: "10. The word 'happily' is the OPPOSITE of",
-        options: [
-          "cheerfully",
-          "sadly / unhappily",
-          "quickly",
-          "politely"
+          "eagerly",
+          "reluctantly / unwillingly",
+          "gladly",
+          "readily"
         ],
         correct: 1
       }
@@ -982,105 +982,105 @@ const LESSON_DATA = {
   // NGÀY 10
   10: {
     title: "How Taking Care of Pets Teaches Responsibility",
-    passage: "Having a pet at home is a wonderful experience for children. Two years ago, my parents gave me a small puppy named Lucky. Because Lucky needs food and clean water every day, I must feed him on time. Although walking the dog early in the morning can be tiring on cold days, I never skip it. In spite of making some mess with his toys, Lucky brings immense joy to our whole family. However, keeping a pet is not just about playing games. Even though puppies are very cute, they need medical checkups and regular baths to stay healthy. Taking care of Lucky has taught me how to be patient and caring toward animals. A pet is a true friend that loves you unconditionally.",
+    passage: "Welcoming a domestic pet into a household is an exciting milestone that brings boundless affection and valuable life lessons. Caring for a dog, cat, or small mammal involves rigorous daily commitments that cannot be neglected. Young pet owners must adhere to strict schedules for feeding, providing fresh water, administering vaccinations, and cleaning living enclosures. Regular daily walks and interactive playtime encourage both the animal and the owner to maintain consistent physical activity. Through these nurturing routines, children gradually realize that living creatures depend entirely on their attentiveness and compassionate dedication. Furthermore, the unconditional companionship offered by pets provides immense emotional comfort, alleviating feelings of loneliness or adolescent stress. While pet ownership demands patience, financial planning, and continuous effort, the personal maturity and profound empathy gained from this journey are truly invaluable.",
     questions: [
       {
-        q: "1. What is the main message of the text?",
+        q: "1. What is the primary theme of the passage?",
         options: [
-          "How to buy expensive pet food",
-          "Caring for a pet brings joy and teaches responsibility",
-          "Why dogs are dangerous animals",
-          "Training working dogs for police work"
+          "Techniques for training working dogs in security operations",
+          "How nurturing domestic pets instills lifelong responsibility and empathy",
+          "The economic expenses of veterinary medicine and animal grooming",
+          "The nutritional differences between commercial and homemade pet foods"
         ],
         correct: 1
       },
       {
-        q: "2. Why must the author feed Lucky on time?",
+        q: "2. What can be inferred about the emotional impact of having a pet?",
         options: [
-          "Because puppies need daily food and fresh water to live",
-          "Because Lucky barks loudly all night",
-          "Because the parents do not like animals",
-          "Because the author wants to sell the puppy"
-        ],
-        correct: 0
-      },
-      {
-        q: "3. Which sentence is TRUE about the author?",
-        options: [
-          "The author walks the dog even on cold mornings",
-          "The author forgets to feed the dog every week",
-          "The author stopped playing with Lucky last year",
-          "The author never cleans the puppy's toys"
-        ],
-        correct: 0
-      },
-      {
-        q: "4. What else do puppies need besides playing games?",
-        options: [
-          "Expensive designer costumes",
-          "Regular baths and medical checkups to stay healthy",
-          "Fast food from the restaurant",
-          "Staying alone in a dark room"
+          "Pets often increase household friction due to strict feeding schedules",
+          "Pets provide unconditional love that helps alleviate anxiety and loneliness",
+          "Pet owners tend to isolate themselves from social interactions",
+          "Children lose interest in caretaking once the initial novelty fades"
         ],
         correct: 1
       },
       {
-        q: "5. What has the author learned from taking care of Lucky?",
+        q: "3. Which of the following responsibilities is NOT mentioned in the text?",
         options: [
-          "How to drive a car",
-          "How to be patient, caring, and responsible",
-          "How to become a professional animal doctor",
-          "How to build an outdoor animal cage"
+          "Feeding and providing clean water on schedule",
+          "Administering vaccinations and cleaning enclosures",
+          "Buying luxury designer costumes for seasonal pet shows",
+          "Engaging in regular walks and playtime"
+        ],
+        correct: 2
+      },
+      {
+        q: "4. Why do daily walks with pets benefit owners as well?",
+        options: [
+          "They guarantee professional athletic success",
+          "They promote regular physical exercise for both the animal and owner",
+          "They replace the need for healthy dietary choices",
+          "They eliminate all veterinary medical costs"
         ],
         correct: 1
       },
       {
-        q: "6. The word 'patient' in the story means",
+        q: "5. What core realization do children develop through nurturing animals?",
         options: [
-          "calm and willing to wait",
-          "angry and quick",
-          "noisy",
-          "hungry"
-        ],
-        correct: 0
-      },
-      {
-        q: "7. The word 'tiring' in the story means",
-        options: [
-          "making you feel tired",
-          "exciting",
-          "easy",
-          "funny"
-        ],
-        correct: 0
-      },
-      {
-        q: "8. The word 'skip' in the story means",
-        options: [
-          "miss/not do",
-          "start",
-          "enjoy",
-          "love"
-        ],
-        correct: 0
-      },
-      {
-        q: "9. The word 'patient' is the OPPOSITE of",
-        options: [
-          "calm",
-          "impatient",
-          "kind",
-          "gentle"
+          "That animals require very little human supervision",
+          "That living beings rely completely on their dedication and care",
+          "That pets are mere entertainment objects for leisure time",
+          "That automated feeding machines should replace human attention"
         ],
         correct: 1
       },
       {
-        q: "10. The word 'healthy' is the OPPOSITE of",
+        q: "6. The word 'rigorous' in the passage is CLOSEST in meaning to _______.",
         options: [
-          "strong",
-          "sick / unhealthy",
-          "active",
-          "good"
+          "strict / demanding",
+          "flexible",
+          "careless",
+          "optional"
+        ],
+        correct: 0
+      },
+      {
+        q: "7. The word 'alleviating' in the passage is CLOSEST in meaning to _______.",
+        options: [
+          "worsening",
+          "relieving / easing",
+          "ignoring",
+          "prolonging"
+        ],
+        correct: 1
+      },
+      {
+        q: "8. The word 'invaluable' in the passage is CLOSEST in meaning to _______.",
+        options: [
+          "extremely precious / priceless",
+          "worthless",
+          "useless",
+          "cheap"
+        ],
+        correct: 0
+      },
+      {
+        q: "9. The word 'boundless' in the passage is OPPOSITE in meaning to _______.",
+        options: [
+          "infinite",
+          "unlimited",
+          "limited / restricted",
+          "immense"
+        ],
+        correct: 2
+      },
+      {
+        q: "10. The word 'neglected' in the passage is OPPOSITE in meaning to _______.",
+        options: [
+          "abandoned",
+          "cared for / attended to",
+          "forgotten",
+          "ignored"
         ],
         correct: 1
       }
@@ -1090,107 +1090,107 @@ const LESSON_DATA = {
   // NGÀY 11
   11: {
     title: "The Power of Daily Reading Habits",
-    passage: "Reading books every day is a wonderful habit for everyone. Lan always spends thirty minutes reading before going to sleep because it helps her relax after school. She regularly borrows exciting storybooks from the school library, and she often discusses them with her classmates. Although some long books seem thick and difficult at first, Lan finds them very interesting once she begins. In spite of being busy with school tests, she never skips her reading routine. However, her brother prefers watching short videos on his mobile phone. Lan explains to him that reading helps expand our vocabulary and improves our memory. Even though phones have many fun games, reading good books regularly is much more rewarding for young minds.",
+    passage: "Cultivating a habit of daily reading is widely acknowledged as one of the most enriching investments in cognitive development. Dedicating just twenty to thirty minutes each day to books broadens vocabulary, refines linguistic fluency, and strengthens critical thinking skills. Unlike the fleeting stimulation provided by brief social media videos, immersive reading demands sustained concentration and active mental visualization. Readers are exposed to diverse cultural perspectives, historical epochs, and complex philosophical concepts without ever leaving their living rooms. Furthermore, unwinding with a compelling novel before sleep calms an overactive nervous system, reducing mental fatigue accumulated from daily digital screens. Whether one explores classic literature, scientific non-fiction, or personal development guides, regular reading expands intellectual horizons. Over time, this consistent mental exercise builds profound analytical comprehension and nurtures an enduring passion for lifelong learning.",
     questions: [
       {
-        q: "1. What is the passage mainly about?",
+        q: "1. What is the central message of the passage?",
         options: [
-          "The best video games on mobile phones",
-          "The benefits of building a daily reading habit",
-          "How to borrow expensive books from shops",
-          "Why school tests are too difficult"
+          "Why electronic book devices are replacing paper publications",
+          "The profound cognitive and emotional benefits of regular daily reading",
+          "Methods for memorizing extensive vocabulary lists for competitive exams",
+          "The economic struggles of modern independent bookstores"
         ],
         correct: 1
       },
       {
-        q: "2. Why does Lan read books before going to sleep?",
+        q: "2. What can be inferred about the difference between reading and social media browsing?",
         options: [
-          "Because she wants to avoid talking to her brother",
-          "Because the storybooks help her relax after school",
-          "Because her teacher forces her to read all night",
-          "Because her phone is broken"
+          "Social media requires deeper intellectual visualization than literature",
+          "Immersive reading trains sustained focus while social media offers shallow stimulation",
+          "Both activities stimulate the brain in exactly identical neurological patterns",
+          "Reading creates higher screen-related mental fatigue than watching short videos"
         ],
         correct: 1
       },
       {
-        q: "3. Which sentence is TRUE about Lan?",
+        q: "3. Which of the following is TRUE about reading before sleep according to the text?",
         options: [
-          "She rarely visits her school library",
-          "She never talks about books with her classmates",
-          "She keeps her reading habit in spite of busy school tests",
-          "She prefers playing phone games to reading"
-        ],
-        correct: 2
-      },
-      {
-        q: "4. What does Lan tell her brother about reading?",
-        options: [
-          "That reading helps expand vocabulary and improve memory",
-          "That reading makes people feel sleepy during exams",
-          "That watching online videos is faster than reading",
-          "That library books are completely free to keep forever"
-        ],
-        correct: 0
-      },
-      {
-        q: "5. How does Lan feel about thick books?",
-        options: [
-          "She finds them interesting once she starts reading them",
-          "She thinks they are boring and returns them immediately",
-          "She refuses to open books with many pages",
-          "She only reads them when her parents get angry"
-        ],
-        correct: 0
-      },
-      {
-        q: "6. The word 'regularly' in the story means",
-        options: [
-          "seldom",
-          "frequently/ often",
-          "never",
-          "slowly"
+          "It causes sleep disruption by overstimulating the nervous system",
+          "It helps soothe the nervous system and eases screen-induced fatigue",
+          "It is only effective when studying complex scientific textbooks",
+          "It replaces the need for proper daily physical exercise"
         ],
         correct: 1
       },
       {
-        q: "7. The word 'expand' in the story means",
+        q: "4. How does reading expose individuals to diverse ideas?",
         options: [
-          "make larger / widen",
-          "shrink",
-          "forget",
-          "lose"
+          "By requiring them to travel internationally to purchase novels",
+          "By introducing different cultures, historical periods, and philosophies",
+          "By restricting their knowledge exclusively to local folklore",
+          "By discouraging discussions with other avid readers"
+        ],
+        correct: 1
+      },
+      {
+        q: "5. What long-term outcome does consistent reading cultivate?",
+        options: [
+          "A complete reliance on audiobooks for daily communication",
+          "Profound analytical understanding and a lifelong passion for knowledge",
+          "Difficulty in adapting to modern workplace software",
+          "A tendency to avoid social interactions in school settings"
+        ],
+        correct: 1
+      },
+      {
+        q: "6. The word 'enriching' in the passage is CLOSEST in meaning to _______.",
+        options: [
+          "rewarding / beneficial",
+          "harmful",
+          "costly",
+          "boring"
         ],
         correct: 0
       },
       {
-        q: "8. The word 'rewarding' in the story means",
+        q: "7. The word 'sustained' in the passage is CLOSEST in meaning to _______.",
         options: [
-          "boring",
-          "dangerous",
-          "satisfying/beneficial",
-          "costly"
-        ],
-        correct: 2
-      },
-      {
-        q: "9. The word 'always' is the OPPOSITE of",
-        options: [
-          "never",
-          "usually",
-          "often",
-          "sometimes"
+          "continuous / prolonged",
+          "interrupted",
+          "weak",
+          "temporary"
         ],
         correct: 0
       },
       {
-        q: "10. The word 'interesting' is the OPPOSITE of",
+        q: "8. The word 'compelling' in the passage is CLOSEST in meaning to _______.",
         options: [
-          "exciting",
-          "wonderful",
-          "boring",
-          "pleasant"
+          "captivating / fascinating",
+          "dull",
+          "unpleasant",
+          "confusing"
         ],
-        correct: 2
+        correct: 0
+      },
+      {
+        q: "9. The word 'fleeting' in the passage is OPPOSITE in meaning to _______.",
+        options: [
+          "brief",
+          "lasting / permanent",
+          "momentary",
+          "short"
+        ],
+        correct: 1
+      },
+      {
+        q: "10. The word 'broadens' in the passage is OPPOSITE in meaning to _______.",
+        options: [
+          "narrows / restricts",
+          "expands",
+          "enlarges",
+          "improves"
+        ],
+        correct: 0
       }
     ]
   },
@@ -1198,105 +1198,105 @@ const LESSON_DATA = {
   // NGÀY 12
   12: {
     title: "Modern Smart Homes and Daily Life",
-    passage: "Modern technology is changing our homes and daily routines very quickly. Today, many families use smart appliances to save time and energy. For example, a robotic vacuum cleaner can sweep the floor automatically because it has sensors. Although these smart devices are quite costly, they make housework much easier. My family has a smart refrigerator that tells us when milk or eggs are nearly finished. In spite of having modern machines, my parents still teach us how to wash our own clothes. However, relying too much on machines can make people lazy. Even though smart technology brings great convenience, it is still important to know basic manual skills. When used wisely, smart tools keep our home clean and comfortable.",
+    passage: "The rapid integration of internet connectivity into household appliances has revolutionized modern domestic life through smart home technology. Today, residents can effortlessly regulate interior temperature, adjust ambient lighting, and monitor security cameras using simple smartphone commands or voice assistants. Automated appliances, such as robotic vacuum cleaners and energy-efficient dishwashers, significantly curtail the time spent on tedious manual housework. These innovative systems also enhance resource conservation by automatically deactivating heating or lights when rooms are unoccupied. Nevertheless, excessive reliance on automated systems can introduce distinct challenges, including vulnerability to cyber threats and high maintenance costs for sophisticated hardware. Tech specialists advise that homeowners should implement robust passwords, update firmware consistently, and balance automated comfort with practical manual skills. When managed prudently, smart home innovations provide unprecedented convenience, safety, and energy efficiency for contemporary families.",
     questions: [
       {
-        q: "1. What is the central topic of the passage?",
+        q: "1. What is the primary focus of the entire passage?",
         options: [
-          "The history of old furniture in traditional houses",
-          "How smart home technology helps daily living",
-          "Why children should not use household appliances",
-          "How to fix a broken refrigerator at home"
+          "The architectural history of residential building construction",
+          "How smart home technology transforms daily living along with its advantages and precautions",
+          "The commercial rivalry between global smartphone manufacturing corporations",
+          "Guidelines for assembling custom robotic cleaning machines at home"
         ],
         correct: 1
       },
       {
-        q: "2. Why can a robotic vacuum cleaner sweep the floor automatically?",
+        q: "2. What can be inferred about smart home technology's contribution to environmental conservation?",
         options: [
-          "Because it has built-in smart sensors",
-          "Because it is controlled by human feet",
-          "Because it only works inside small bedrooms",
-          "Because it does not use electric power"
-        ],
-        correct: 0
-      },
-      {
-        q: "3. Which sentence is TRUE according to the text?",
-        options: [
-          "Smart machines are very cheap to buy everywhere",
-          "The smart refrigerator warns when food items are running out",
-          "The author's parents forbid children from washing clothes",
-          "People do not need to clean their houses anymore"
+          "It increases domestic carbon emissions by running systems continuously",
+          "It helps conserve electricity by shutting down devices in empty spaces",
+          "It prevents families from purchasing energy-efficient appliances",
+          "It forces households to rely entirely on non-renewable energy sources"
         ],
         correct: 1
       },
       {
-        q: "4. What warning does the author give about smart appliances?",
+        q: "3. Which of the following is TRUE about automated household appliances according to the text?",
         options: [
-          "They use too much drinking water in the kitchen",
-          "Relying too much on them can make people lazy",
-          "They break down every single morning",
-          "They make homes much dirtier than before"
+          "They require constant human physical effort to complete simple tasks",
+          "They drastically reduce the hours required for repetitive manual chores",
+          "They are completely invulnerable to digital security vulnerabilities",
+          "They eliminate the need for routine software and firmware updates"
         ],
         correct: 1
       },
       {
-        q: "5. What is the author's opinion about basic manual skills?",
+        q: "4. What potential drawback of smart homes is explicitly highlighted?",
         options: [
-          "They are completely useless in modern cities",
-          "They should only be learned by elderly people",
-          "It is still important to know and practice them",
-          "They take too much time to learn at school"
-        ],
-        correct: 2
-      },
-      {
-        q: "6. The word 'convenience' in the story means",
-        options: [
-          "ease and comfort / usefulness",
-          "difficulty",
-          "danger",
-          "sadness"
+          "Susceptibility to cybersecurity risks and expensive hardware repairs",
+          "Inability to adjust lighting or climate control using mobile devices",
+          "Complete failure to clean domestic floor dust effectively",
+          "Lack of compatibility with modern voice-activated systems"
         ],
         correct: 0
       },
       {
-        q: "7. The word 'appliances' in the story means",
+        q: "5. What recommendation do tech experts provide to ensure smart home security?",
         options: [
-          "household machines",
-          "school uniforms",
-          "sports games",
-          "food recipes"
+          "Disconnecting all household devices from internet access permanently",
+          "Employing strong password protocols and maintaining regular software updates",
+          "Avoiding the use of robotic vacuum cleaners inside bedrooms",
+          "Replacing electronic systems with antique mechanical hardware"
+        ],
+        correct: 1
+      },
+      {
+        q: "6. The word 'curtail' in the passage is CLOSEST in meaning to _______.",
+        options: [
+          "reduce / cut down",
+          "increase",
+          "extend",
+          "prolong"
         ],
         correct: 0
       },
       {
-        q: "8. The word 'automatically' in the story means",
+        q: "7. The word 'tedious' in the passage is CLOSEST in meaning to _______.",
         options: [
-          "operating by itself without human control",
-          "moving very slowly",
-          "needing constant repair",
-          "costing zero money"
+          "monotonous / boring",
+          "thrilling",
+          "creative",
+          "enjoyable"
         ],
         correct: 0
       },
       {
-        q: "9. The word 'costly' is the OPPOSITE of",
+        q: "8. The word 'prudently' in the passage is CLOSEST in meaning to _______.",
         options: [
-          "cheap / affordable",
-          "expensive",
-          "heavy",
-          "precious"
+          "wisely / carefully",
+          "recklessly",
+          "hurriedly",
+          "foolishly"
         ],
         correct: 0
       },
       {
-        q: "10. The word 'wisely' is the OPPOSITE of",
+        q: "9. The word 'unprecedented' in the passage is OPPOSITE in meaning to _______.",
         options: [
-          "cleverly",
-          "carefully",
-          "foolishly",
-          "smartly"
+          "extraordinary",
+          "commonplace / familiar",
+          "novel",
+          "innovative"
+        ],
+        correct: 1
+      },
+      {
+        q: "10. The word 'unoccupied' in the passage is OPPOSITE in meaning to _______.",
+        options: [
+          "vacant",
+          "empty",
+          "inhabited / occupied",
+          "quiet"
         ],
         correct: 2
       }
@@ -1306,107 +1306,107 @@ const LESSON_DATA = {
   // NGÀY 13
   13: {
     title: "Breaking Bad Habits: How to Stop Procrastination",
-    passage: "Delaying important work is a bad habit that many students have. An unproductive student rarely starts homework early and seldom prepares for tests ahead of time. Because difficult tasks seem scary, students often check their phones or watch cartoons instead. Although this brings fun for a few minutes, it leads to big trouble later. In spite of knowing that the deadline is near, lazy students never start until the last night. However, successful learners know how to break this bad habit. They divide big projects into small steps. Even though doing math exercises takes effort, spending just twenty minutes on each step makes the work feel easy. When you stop putting off your duties, you will feel calm and confident.",
+    passage: "Procrastination is a pervasive psychological trap that prevents countless individuals from realizing their full potential and achieving long-term ambitions. People frequently postpone demanding assignments not because they are inherently lazy, but due to subconscious fear of failure or perfectionist tendencies. When confronted with monumental projects, the human brain instinctively seeks immediate gratification through mindless internet browsing, social video viewing, or minor distractions. However, this fleeting relief quickly transforms into overwhelming remorse as deadlines loom ominously close. Behavioral psychologists suggest breaking massive objectives into manageable, bite-sized components and utilizing the 'five-minute rule' to initiate action. Establishing structured workspaces free from distracting notifications also significantly restores concentration. By acknowledging emotional triggers, practicing self-compassion, and executing small consistent steps, anyone can overcome chronic avoidance and regain control over their time.",
     questions: [
       {
-        q: "1. What is the main point of the passage?",
+        q: "1. What is the central message of the passage?",
         options: [
-          "Why watching cartoons at night is exciting",
-          "How to stop delaying tasks and build better study habits",
-          "How to buy modern mobile phones for studying",
-          "The easiest math exercises for school students"
+          "Why perfectionism is the most vital requirement for professional mastery",
+          "Understanding the psychological roots of procrastination and actionable strategies to overcome it",
+          "The advantages of working exclusively under intense deadline pressure",
+          "How to eliminate the need for study timetables in modern schooling"
         ],
         correct: 1
       },
       {
-        q: "2. Why do students often delay doing their homework?",
+        q: "2. What can be inferred about the primary reason people procrastinate on difficult tasks?",
         options: [
-          "Because their teachers tell them to sleep",
-          "Because hard tasks seem scary, so they choose fun distractions",
-          "Because they do not have pens and notebooks",
-          "Because they want to stay at school all night"
+          "They lack basic intelligence and reading comprehension abilities",
+          "They often grapple with subconscious anxieties about failing or falling short of perfection",
+          "They genuinely prefer doing heavy manual domestic chores instead",
+          "They are physically incapable of sitting at desks for extended periods"
         ],
         correct: 1
       },
       {
-        q: "3. What does an unproductive student rarely do?",
+        q: "3. Which of the following is TRUE about the immediate relief of avoiding work?",
         options: [
-          "Rarely plays games on mobile phones",
-          "Rarely sleeps during the weekend",
-          "Rarely starts homework early or prepares for tests ahead",
-          "Rarely forgets school deadlines"
-        ],
-        correct: 2
-      },
-      {
-        q: "4. How can students tackle large, difficult school projects?",
-        options: [
-          "By leaving everything until the final hour",
-          "By asking friends to do all the work",
-          "By dividing big projects into small, manageable steps",
-          "By skipping the project completely"
-        ],
-        correct: 2
-      },
-      {
-        q: "5. Which statement is TRUE according to the text?",
-        options: [
-          "Putting off duties helps students achieve top exam grades",
-          "Working for twenty minutes on small steps makes work easier",
-          "Lazy students always finish projects two days early",
-          "Cartoons help students understand difficult math problems"
+          "It permanently resolves the underlying academic difficulties",
+          "It quickly turns into guilt, heightened anxiety, and deadline pressure",
+          "It boosts long-term self-esteem and academic confidence",
+          "It prevents students from ever making mistakes on assignments"
         ],
         correct: 1
       },
       {
-        q: "6. The word 'seldom' in the passage means",
+        q: "4. What practical method is recommended to tackle overwhelming projects?",
         options: [
-          "rarely / almost never",
-          "always",
-          "every day",
-          "quickly"
+          "Dividing large tasks into smaller steps and using the five-minute rule",
+          "Waiting until the final night to complete the entire workload at once",
+          "Ignoring all project guidelines until teachers offer reminders",
+          "Multi-tasking across several unrelated computer programs simultaneously"
         ],
         correct: 0
       },
       {
-        q: "7. The word 'unproductive' in the passage means",
+        q: "5. How does optimizing the physical workspace help combat task avoidance?",
         options: [
-          "not working well / achieving little",
-          "very fast",
-          "happy",
-          "noisy"
+          "By eliminating digital interruptions and helping sustain mental focus",
+          "By encouraging extended daytime naps between study sessions",
+          "By increasing the volume of background entertainment media",
+          "By reducing the need to write down project deadlines"
         ],
         correct: 0
       },
       {
-        q: "8. The word 'divide' in the passage means",
+        q: "6. The word 'pervasive' in the passage is CLOSEST in meaning to _______.",
         options: [
-          "separate into parts",
-          "throw away",
-          "paint",
-          "hide"
+          "widespread / common",
+          "rare",
+          "harmless",
+          "isolated"
         ],
         correct: 0
       },
       {
-        q: "9. The word 'rarely' is the OPPOSITE of",
+        q: "7. The word 'monumental' in the passage is CLOSEST in meaning to _______.",
         options: [
-          "seldom",
-          "frequently/ often",
-          "never",
-          "hardly"
+          "immense / very large",
+          "tiny",
+          "unimportant",
+          "easy"
+        ],
+        correct: 0
+      },
+      {
+        q: "8. The word 'remorse' in the passage is CLOSEST in meaning to _______.",
+        options: [
+          "guilt / regret",
+          "satisfaction",
+          "excitement",
+          "pride"
+        ],
+        correct: 0
+      },
+      {
+        q: "9. The word 'gratification' in the passage is OPPOSITE in meaning to _______.",
+        options: [
+          "pleasure",
+          "dissatisfaction / frustration",
+          "enjoyment",
+          "delight"
         ],
         correct: 1
       },
       {
-        q: "10. The word 'confident' is the OPPOSITE of",
+        q: "10. The word 'manageable' in the passage is OPPOSITE in meaning to _______.",
         options: [
-          "sure",
-          "strong",
-          "happy",
-          "insecure / unsure"
+          "achievable",
+          "unmanageable / impossible",
+          "simple",
+          "flexible"
         ],
-        correct: 3
+        correct: 1
       }
     ]
   },
@@ -1414,217 +1414,216 @@ const LESSON_DATA = {
   // NGÀY 14
   14: {
     title: "A Sunday Afternoon in a Cozy Backyard",
-    passage: "Sunday afternoons in our family backyard are always peaceful and relaxing. Although we live near a busy road, our garden is quiet because it is surrounded by tall green trees and sweet jasmine flowers. My parents usually sit on wooden chairs, drinking warm tea and chatting happily. In spite of the warm sunshine, there is a cool breeze under the big mango tree. My younger brother and I enjoy painting small flower pots on the patio. However, our playful cat likes to run around and chase colorful butterflies. Even though our backyard is not very big, it is a charming space where everyone feels close to nature. Spending quiet time together in such a pleasant place gives our family fresh energy for the new week.",
+    passage: "Sunday afternoons in our family backyard offer a soothing respite from the frantic rhythms of metropolitan life. Enclosed by blooming jasmine bushes, aromatic herb pots, and a sprawling mango tree, the garden provides a refreshing natural oasis. My parents usually relax on comfortable wooden lounge chairs, sipping iced tea while listening to the melodious chirping of garden birds. Meanwhile, my younger siblings enjoy painting watercolor landscapes on the patio, completely immersed in their imaginative creations. In the corner of the garden, a small rustic table is arranged with homemade pastries and fresh seasonal fruits for our casual afternoon snack. Spending unhurried hours surrounded by lush greenery and gentle breezes rejuvenates both physical vitality and mental tranquility. These tranquil Sunday rituals remind us that genuine contentment is often discovered in simple, quiet moments shared with cherished loved ones.",
     questions: [
       {
-        q: "1. What is the text mainly about?",
+        q: "1. What is the main idea of the passage?",
         options: [
-          "How to grow mango trees in a big village",
-          "A peaceful and relaxing Sunday afternoon in a family backyard",
-          "Buying wooden furniture for modern living rooms",
-          "The history of street traffic in large cities"
+          "Agricultural guidelines for cultivating aromatic herbs and fruit trees",
+          "The restorative tranquility and joyful simplicity of a family Sunday afternoon in the backyard",
+          "Techniques for constructing wooden patio furniture from raw materials",
+          "The negative consequences of living in crowded metropolitan centers"
         ],
         correct: 1
       },
       {
-        q: "2. Why is the backyard quiet even though it is near a busy road?",
+        q: "2. What can be inferred about the garden's effect on the family members?",
         options: [
-          "Because cars are completely banned on Sundays",
-          "Because it is surrounded by tall trees and flower bushes",
-          "Because all neighbors stay inside their houses",
-          "Because the family wears special headphones"
+          "It serves as a stressful chore location requiring constant hard labor",
+          "It provides a peaceful haven that restores their energy and mental well-being",
+          "It creates boredom because there are no digital video screens available",
+          "It causes family members to isolate themselves in complete silence"
         ],
         correct: 1
       },
       {
-        q: "3. What do the author and the younger brother do on the patio?",
+        q: "3. Which of the following is TRUE about the siblings' activity during the afternoon?",
         options: [
-          "They drink hot coffee with their parents",
-          "They paint small flower pots together",
-          "They do difficult school homework all day",
-          "They build a large wooden treehouse"
+          "They are absorbed in creating watercolor landscape paintings on the patio",
+          "They are doing heavy homework assignments for their school classes",
+          "They are preparing hot tea and baking pastries in the indoor kitchen",
+          "They are playing loud electronic video games near the garden fence"
+        ],
+        correct: 0
+      },
+      {
+        q: "4. What refreshments are prepared for the family in the garden?",
+        options: [
+          "Fast-food burgers and carbonated sugary soft drinks",
+          "Iced tea, homemade pastries, and fresh seasonal fruits",
+          "Elaborate multi-course traditional holiday banquets",
+          "Packaged snacks purchased from an online grocery store"
         ],
         correct: 1
       },
       {
-        q: "4. What does the family cat like to do?",
+        q: "5. According to the concluding sentence, where is true happiness frequently discovered?",
         options: [
-          "Sleep quietly under the kitchen table",
-          "Run around and chase colorful butterflies",
-          "Climb over the neighbor's brick wall",
-          "Eat ripe mangoes from the fruit tree"
+          "In accumulating expensive material luxury items",
+          "In quiet, unassuming moments enjoyed with beloved family members",
+          "In achieving high corporate status in busy metropolitan areas",
+          "In traveling constantly to unfamiliar international destinations"
         ],
         correct: 1
       },
       {
-        q: "5. Which sentence is TRUE according to the passage?",
+        q: "6. The word 'respite' in the passage is CLOSEST in meaning to _______.",
         options: [
-          "The family backyard is extremely large and noisy",
-          "Nobody drinks tea in the garden on Sunday afternoons",
-          "The quiet afternoon in the garden restores the family's energy",
-          "The brother dislikes painting flower pots outdoors"
+          "short break / relief",
+          "continuation",
+          "struggle",
+          "punishment"
+        ],
+        correct: 0
+      },
+      {
+        q: "7. The word 'rejuvenates' in the passage is CLOSEST in meaning to _______.",
+        options: [
+          "revitalizes / refreshes",
+          "exhausts",
+          "damages",
+          "weakens"
+        ],
+        correct: 0
+      },
+      {
+        q: "8. The word 'cherished' in the passage is CLOSEST in meaning to _______.",
+        options: [
+          "beloved / deeply valued",
+          "ignored",
+          "disliked",
+          "unfamiliar"
+        ],
+        correct: 0
+      },
+      {
+        q: "9. The word 'frantic' in the passage is OPPOSITE in meaning to _______.",
+        options: [
+          "hectic",
+          "calm / tranquil",
+          "wild",
+          "panicked"
+        ],
+        correct: 1
+      },
+      {
+        q: "10. The word 'lush' in the passage is OPPOSITE in meaning to _______.",
+        options: [
+          "abundant",
+          "green",
+          "barren / withered",
+          "flourishing"
         ],
         correct: 2
-      },
-      {
-        q: "6. The word 'charming' in the story means",
-        options: [
-          "lovely and pleasant",
-          "ugly",
-          "crowded",
-          "scary"
-        ],
-        correct: 0
-      },
-      {
-        q: "7. The word 'peaceful' in the story means",
-        options: [
-          "calm and quiet",
-          "full of traffic noise",
-          "dangerous",
-          "messy"
-        ],
-        correct: 0
-      },
-      {
-        q: "8. The word 'surrounded' in the story means",
-        options: [
-          "enclosed on all sides",
-          "destroyed completely",
-          "sold to others",
-          "hidden underground"
-        ],
-        correct: 0
-      },
-      {
-        q: "9. The word 'pleasant' is the OPPOSITE of",
-        options: [
-          "nice",
-          "enjoyable",
-          "disagreeable / unpleasant",
-          "calm"
-        ],
-        correct: 2
-      },
-      {
-        q: "10. The word 'cozy' is the OPPOSITE of",
-        options: [
-          "warm",
-          "uncomfortable / cold",
-          "lovely",
-          "small"
-        ],
-        correct: 1
       }
     ]
-  },
-
-  // ==============================================================
-  // TUẦN 3: MUA SẮM, CHI TIÊU & CẢM XÚC (NGÀY 15 - 21)
+  }
+,// ==============================================================
+  // TUẦN 3: MUA SẮM, CHI TIÊU & CẢM XÚC (NGÀY 15 - 21) - 13 CÂU/BÀI
   // ==============================================================
 
   // NGÀY 15
   15: {
     title: "Wise Money Habits: Needs vs. Wants",
-    passage: "Learning how to manage personal money is an important life skill for young people. Many children spend all their pocket money quickly because they cannot tell the difference between \"needs\" and \"wants\". Needs are things we must have to live, like simple food, clean water, and warm clothes. Wants are extra things, such as costly video games or expensive designer shoes. Although buying fancy gadgets feels exciting, it can waste a lot of money. In spite of seeing attractive advertisements every day, smart children learn to save. However, saving money does not mean you cannot buy nice things. It means choosing affordable items and saving twenty percent of your money for emergencies. Even though saving requires patience, it brings peace of mind and builds sensible spending habits.",
+    passage: "Developing financial literacy at an early age is an essential life skill that lays the foundation for long-term personal independence. One of the most fundamental principles of sound money management is distinguishing clearly between basic needs and non-essential wants. Needs represent the vital elements required for survival and healthy living, such as wholesome food, secure housing, medical care, and appropriate clothing. In contrast, wants encompass discretionary desires, including luxury gadgets, fashionable designer attire, high-end entertainment, and dining at costly restaurants. When individuals fail to recognize this distinction, they frequently overspend on fleeting pleasures and accumulate unnecessary personal debts. Financial advisors strongly recommend adopting the popular 50-30-20 budgeting strategy to maintain fiscal discipline. Under this framework, fifty percent of monthly income is allocated to essential living expenses, while thirty percent is dedicated to personal wants. The remaining twenty percent must be systematically deposited into an emergency savings fund or long-term investments. Tracking daily expenditures using simple mobile applications can prevent impulsive purchasing decisions in shopping malls. Moreover, delaying non-essential purchases for twenty-four hours helps evaluate whether an item is genuinely necessary. Cultivating mindful spending habits prevents anxiety, fosters financial security, and guarantees peace of mind during unexpected emergencies. Ultimately, true financial freedom comes not from having boundless wealth, but from mastering self-control and making prudent fiscal decisions every day.",
     questions: [
       {
-        q: "1. What is the central idea of the passage?",
+        q: "1. What is the central message of the entire passage?",
         options: [
-          "Why designer shoes are the best clothes to buy",
-          "The importance of understanding needs versus wants and saving money",
-          "How to borrow money from friends at school",
-          "Watching television advertisements on weekends"
+          "The commercial advantages of investing exclusively in real estate assets",
+          "The critical importance of distinguishing needs from wants and practicing disciplined financial habits",
+          "Techniques for negotiating the lowest prices when shopping at designer stores",
+          "Why credit cards should replace cash in all retail transactions"
         ],
         correct: 1
       },
       {
-        q: "2. What are \"needs\" according to the author?",
+        q: "2. What can be inferred about individuals who disregard the distinction between needs and wants?",
         options: [
-          "Luxury toys and costly video games",
-          "Essential things for survival like simple food, water, and warm clothes",
-          "Expensive meals at five-star restaurants",
-          "Fancy gadgets advertised on social media"
+          "They achieve financial independence much earlier than their peers",
+          "They are highly prone to chronic debt and financial distress due to impulsive buying",
+          "They rarely need to maintain emergency savings accounts",
+          "They demonstrate superior fiscal self-control during emergencies"
         ],
         correct: 1
       },
       {
-        q: "3. Why do some children run out of pocket money very quickly?",
+        q: "3. According to the 50-30-20 budgeting rule, what proportion of income should be set aside for savings or investment?",
         options: [
-          "Because they never buy any food or water",
-          "Because they cannot distinguish between needs and wants",
-          "Because banks do not accept pocket money",
-          "Because school books are too expensive"
-        ],
-        correct: 1
-      },
-      {
-        q: "4. What does the author suggest students do with their money?",
-        options: [
-          "Spend all of it on seasonal sales",
-          "Choose affordable items and save some for emergencies",
-          "Give all pocket money to video game shops",
-          "Stop buying food and drinks completely"
-        ],
-        correct: 1
-      },
-      {
-        q: "5. Which sentence is TRUE according to the passage?",
-        options: [
-          "Saving money means you can never buy anything you like",
-          "Smart children learn to save money in spite of seeing advertisements",
-          "Video games are basic needs for every young child",
-          "Nobody needs to save money for unexpected emergencies"
-        ],
-        correct: 1
-      },
-      {
-        q: "6. The word 'costly' in the passage means",
-        options: [
-          "cheap",
-          "expensive/high-priced",
-          "free",
-          "small"
-        ],
-        correct: 1
-      },
-      {
-        q: "7. The word 'affordable' in the passage means",
-        options: [
-          "reasonably priced / not too expensive",
-          "impossible to buy",
-          "broken",
-          "old-fashioned"
-        ],
-        correct: 0
-      },
-      {
-        q: "8. The word 'sensible' in the passage means",
-        options: [
-          "foolish",
-          "wise / practical",
-          "noisy",
-          "hurried"
-        ],
-        correct: 1
-      },
-      {
-        q: "9. The word 'expensive' is the OPPOSITE of",
-        options: [
-          "costly",
-          "fancy",
-          "cheap / inexpensive",
-          "precious"
+          "Fifty percent",
+          "Thirty percent",
+          "Twenty percent",
+          "Ten percent"
         ],
         correct: 2
       },
       {
-        q: "10. The word 'waste' is the OPPOSITE of",
+        q: "4. What practical technique is suggested to avoid impulsive buying behavior?",
         options: [
-          "spend",
-          "save / conserve",
-          "lose",
-          "throw"
+          "Borrowing money from family members for unexpected purchases",
+          "Delaying discretionary buying decisions for twenty-four hours to evaluate genuine necessity",
+          "Carrying only large amounts of cash during shopping trips",
+          "Shopping only during seasonal clearance sales"
+        ],
+        correct: 1
+      },
+      {
+        q: "5. According to the author, what constitutes true financial freedom?",
+        options: [
+          "Possessing unlimited wealth without the need to budget",
+          "Exercising self-restraint and making prudent fiscal choices consistently",
+          "Avoiding all recreational expenditures and social activities",
+          "Working multiple jobs without taking rest breaks"
+        ],
+        correct: 1
+      },
+      {
+        q: "6. The word 'vital' in the passage is CLOSEST in meaning to _______.",
+        options: [
+          "essential / crucial",
+          "optional",
+          "minor",
+          "costly"
+        ],
+        correct: 0
+      },
+      {
+        q: "7. The word 'discretionary' in the passage is CLOSEST in meaning to _______.",
+        options: [
+          "mandatory",
+          "non-essential / optional",
+          "urgent",
+          "dangerous"
+        ],
+        correct: 1
+      },
+      {
+        q: "8. The word 'expenditures' in the passage is CLOSEST in meaning to _______.",
+        options: [
+          "expenses / spendings",
+          "earnings",
+          "profits",
+          "investments"
+        ],
+        correct: 0
+      },
+      {
+        q: "9. The word 'impulsive' in the passage is OPPOSITE in meaning to _______.",
+        options: [
+          "spontaneous",
+          "unplanned",
+          "carefully planned / deliberate",
+          "reckless"
+        ],
+        correct: 2
+      },
+      {
+        q: "10. The word 'prudent' in the passage is OPPOSITE in meaning to _______.",
+        options: [
+          "sensible",
+          "reckless / unwise",
+          "cautious",
+          "frugal"
         ],
         correct: 1
       }
@@ -1634,107 +1633,107 @@ const LESSON_DATA = {
   // NGÀY 16
   16: {
     title: "An Exciting Trip to the Local Weekend Market",
-    passage: "Visiting the open-air market on Saturday morning is always an exhilarating experience for my sister and me. The market is located in the town square, and it opens at sunrise because farmers bring fresh vegetables from their fields early. Although the narrow paths are crowded and noisy, the vibrant colors of ripe fruits make everyone feel cheerful. Sellers display fresh mangoes, handmade pots, and woven baskets. Buyers often talk politely with vendors to negotiate fair prices. In spite of the loud street noise, people enjoy friendly chats with their neighbors. However, supermarket shopping is very different because you cannot talk with local farmers. Even though my basket becomes heavy by noon, I love carrying fresh vegetables home. Traditional markets keep our local culture alive and bring our community together.",
+    passage: "Wandering through the bustling weekend open-air market is an exhilarating cultural experience that captivates all human senses. Located at the historic heart of the town, the market comes alive at dawn as hundreds of local vendors assemble their vibrant stalls. The narrow alleys are lined with an abundance of fresh seasonal produce, handcrafted ceramics, aromatic spices, and traditional textiles. Local farmers proudly display organically grown fruits and crisp vegetables, inviting shoppers to sample their harvest. In another lively section, talented artisans demonstrate their craftsmanship by carving wooden souvenirs and weaving colorful bamboo baskets right in front of curious spectators. Bargaining is considered a friendly art form here, where buyers and sellers engage in cheerful banter to agree on equitable prices. The air is permeated with mouth-watering aromas of sizzling street delicacies, roasted peanuts, and freshly brewed herbal infusions. Families stroll at an unhurried pace, greeting familiar neighbors and exchanging warm community gossip. Street musicians with acoustic guitars add a festive and rhythmic soundtrack to the lively morning commerce. Shoppers carrying reusable cloth bags reflect an encouraging collective shift toward environmentally conscious purchasing. By mid-day, visitors depart with baskets brimming with authentic treasures and memories of authentic communal warmth. Traditional markets preserve local cultural identity in ways that modern sterile supermarkets can never replicate. This vibrant weekend tradition remains a cherished celebration of local heritage, culinary joy, and genuine human connection.",
     questions: [
       {
-        q: "1. What is the passage mainly about?",
+        q: "1. What is the primary purpose of the passage?",
         options: [
-          "The reasons why traditional markets are closing down",
-          "The lively and enjoyable atmosphere of a local weekend market",
-          "How to grow fresh mangoes on a farm",
-          "The price of electrical appliances in big supermarkets"
+          "To analyze the economic competition between traditional markets and modern supermarkets",
+          "To vividly depict the lively cultural atmosphere and communal charm of a local weekend market",
+          "To provide a technical guide on making handcrafted bamboo baskets",
+          "To discuss sanitary regulations in open-air food stalls"
         ],
         correct: 1
       },
       {
-        q: "2. Why does the open-air market open at sunrise?",
+        q: "2. What can be inferred about the interaction between buyers and sellers at the market?",
         options: [
-          "Because farmers bring fresh farm produce from their fields early",
-          "Because shoppers want to avoid the evening rain",
-          "Because all buses stop running in the afternoon",
-          "Because city shops are closed all weekend"
-        ],
-        correct: 0
-      },
-      {
-        q: "3. What do buyers and sellers often do at the traditional market?",
-        options: [
-          "They argue angrily about traffic rules",
-          "They converse politely and negotiate fair prices",
-          "They scan barcodes using electronic machines silently",
-          "They trade old clothes for expensive electronics"
+          "It is hostile and competitive due to aggressive price haggling",
+          "It is friendly, respectful, and rooted in warm social exchange",
+          "It is strictly governed by electronic scanning systems without verbal communication",
+          "It causes major delays and customer dissatisfaction"
         ],
         correct: 1
       },
       {
-        q: "4. Which sentence is TRUE about the local market?",
+        q: "3. Which of the following items is NOT mentioned as being sold at the market?",
         options: [
-          "It is quiet and empty on Saturday mornings",
-          "People can meet neighbors and enjoy friendly conversations",
-          "Only foreign tourists are allowed to enter the stalls",
-          "Sellers only sell canned food and plastic toys"
-        ],
-        correct: 1
-      },
-      {
-        q: "5. How is supermarket shopping different according to the text?",
-        options: [
-          "You cannot talk directly with local farmers",
-          "Supermarkets have no indoor electric lights",
-          "Supermarkets do not sell any food items",
-          "Supermarket items are always completely free"
-        ],
-        correct: 0
-      },
-      {
-        q: "6. The word 'exhilarating' in the story means",
-        options: [
-          "very exciting and joyful",
-          "boring",
-          "painful",
-          "sleepy"
-        ],
-        correct: 0
-      },
-      {
-        q: "7. The word 'negotiate' in the story means",
-        options: [
-          "bargain / discuss to agree on a price",
-          "refuse to pay",
-          "take without asking",
-          "run away quickly"
-        ],
-        correct: 0
-      },
-      {
-        q: "8. The word 'vibrant' in the story means",
-        options: [
-          "dark and dull",
-          "bright and full of energy",
-          "dangerous",
-          "silent"
-        ],
-        correct: 1
-      },
-      {
-        q: "9. The word 'fair' is the OPPOSITE of",
-        options: [
-          "honest",
-          "reasonable",
-          "unfair / unjust",
-          "good"
+          "Fresh seasonal produce and organic vegetables",
+          "Handcrafted ceramics and traditional textiles",
+          "High-tech electronic smartphones and computers",
+          "Carved wooden souvenirs and bamboo baskets"
         ],
         correct: 2
       },
       {
-        q: "10. The word 'traditional' is the OPPOSITE of",
+        q: "4. What detail demonstrates that shoppers are becoming environmentally aware?",
         options: [
-          "ancient",
-          "modern / contemporary",
-          "old",
-          "classic"
+          "They travel to the market exclusively on foot",
+          "They bring reusable cloth bags to carry their purchases",
+          "They purchase only raw imported ingredients",
+          "They demand plastic packaging for every single item"
         ],
         correct: 1
+      },
+      {
+        q: "5. According to the text, why are traditional weekend markets culturally irreplaceable?",
+        options: [
+          "Because they offer cheaper manufactured goods than wholesale stores",
+          "Because they safeguard local heritage, social warmth, and authentic community ties",
+          "Because they operate continuously without closing at night",
+          "Because they require no financial transaction taxes"
+        ],
+        correct: 1
+      },
+      {
+        q: "6. The word 'exhilarating' in the passage is CLOSEST in meaning to _______.",
+        options: [
+          "thrilling / exciting",
+          "monotonous",
+          "exhausting",
+          "terrifying"
+        ],
+        correct: 0
+      },
+      {
+        q: "7. The word 'artisans' in the passage is CLOSEST in meaning to _______.",
+        options: [
+          "skilled craftsmen",
+          "retail customers",
+          "foreign tourists",
+          "tax collectors"
+        ],
+        correct: 0
+      },
+      {
+        q: "8. The word 'permeated' in the passage is CLOSEST in meaning to _______.",
+        options: [
+          "filled / spread throughout",
+          "cleared",
+          "blocked",
+          "diminished"
+        ],
+        correct: 0
+      },
+      {
+        q: "9. The word 'sterile' in the passage is OPPOSITE in meaning to _______.",
+        options: [
+          "cold and characterless",
+          "vibrant / full of character",
+          "hygienic",
+          "unpleasant"
+        ],
+        correct: 1
+      },
+      {
+        q: "10. The word 'abundance' in the passage is OPPOSITE in meaning to _______.",
+        options: [
+          "plenty",
+          "wealth",
+          "scarcity / shortage",
+          "collection"
+        ],
+        correct: 2
       }
     ]
   },
@@ -1742,107 +1741,107 @@ const LESSON_DATA = {
   // NGÀY 17
   17: {
     title: "Costly Mistakes: The Real Value of Handmade Items",
-    passage: "Many shoppers today buy cheap, factory-made items from big department stores. These products look bright and attractive at first because they have modern packaging. However, many cheap items are made from flimsy materials that break after a few weeks. Although a plastic chair or a machine-made bag costs very little, buying replacements repeatedly becomes very expensive. In spite of having higher price tags, authentic handmade goods offer much better durability. Skilled carpenters and tailors spend many hours making each wooden table or leather bag with great care. Even though artisan goods require a larger budget initially, their longevity saves you money in the long run. Choosing durable items also reduces trash and supports skilled local craftspeople in our community.",
+    passage: "In an era dominated by mass production, consumers are frequently tempted by cheap, factory-made goods that flood commercial retail outlets. These inexpensive items appear attractive initially due to their low price tags and trendy cosmetic appearances. However, many buyers quickly discover that such products suffer from flimsy construction and inferior raw materials. Within a few months of moderate use, mass-produced items often malfunction, crack, or deteriorate completely, forcing owners to purchase frequent replacements. This continuous cycle of buying and discarding creates a costly illusion of savings while generating enormous volumes of household waste. In contrast, authentic handmade items represent exceptional craftsmanship, durability, and deep personal artistic commitment. Skilled craftsmen spend countless hours meticulously shaping wood, sewing leather, or throwing clay with specialized traditional tools. Every handcrafted product possesses unique imperfections that bestow genuine character and timeless aesthetic appeal. Although the initial financial outlay for artisan goods is significantly higher, their exceptional longevity makes them far more economical over time. Investing in handmade pieces also directly supports local heritage, ethical labor practices, and sustainable production models. Discerning consumers understand that true value is measured by enduring quality and craftsmanship rather than deceptive bargain price tags. Choosing heirloom-quality handmade goods is ultimately an investment in artistic integrity, sustainability, and thoughtful consumption.",
     questions: [
       {
-        q: "1. What is the central message of the passage?",
+        q: "1. What is the central argument of the passage?",
         options: [
-          "Factory-made items are always better than handmade goods",
-          "Handmade items provide better quality and long-term value than cheap goods",
-          "How to open a plastic furniture store in a big city",
-          "Why people should throw away their old belongings every month"
+          "Mass production is superior because it lowers living expenses for everyone",
+          "Handmade items, despite higher initial prices, provide greater long-term value, durability, and sustainability",
+          "Machine-made goods will soon replace all traditional craftsmanship",
+          "How to start a commercial furniture manufacturing business"
         ],
         correct: 1
       },
       {
-        q: "2. Why do cheap factory-made goods look attractive initially?",
+        q: "2. What can be inferred about the apparent affordability of cheap mass-produced goods?",
         options: [
-          "Because they have modern, bright packaging and low prices",
-          "Because they last for many decades without damage",
-          "Because they are handmade by famous artists",
-          "Because they come with a lifetime warranty"
-        ],
-        correct: 0
-      },
-      {
-        q: "3. What is the main problem with flimsy, machine-made products?",
-        options: [
-          "They are too heavy to carry home",
-          "They often break quickly, forcing owners to buy frequent replacements",
-          "They can only be purchased in small rural villages",
-          "They look identical to antique wooden furniture"
+          "It leads to genuine long-term wealth accumulation for working families",
+          "It is a deceptive illusion because frequent breakages require costly recurring replacements",
+          "It guarantees the highest standard of product durability",
+          "It reduces global environmental waste significantly"
         ],
         correct: 1
       },
       {
-        q: "4. Why are authentic handmade items worth their higher price?",
+        q: "3. Which of the following is TRUE about authentic handcrafted items according to the text?",
         options: [
-          "Because craftspeople make them carefully with durable materials",
-          "Because they are imported from foreign countries by plane",
-          "Because machine software designs them in a few seconds",
-          "Because they cannot be cleaned with ordinary water"
+          "They are manufactured using automated computer programs without manual labor",
+          "Their minor natural imperfections give them distinct character and enduring charm",
+          "They deteriorate much faster than factory-made commercial alternatives",
+          "They are produced exclusively for temporary decorative purposes"
         ],
-        correct: 0
+        correct: 1
       },
       {
-        q: "5. Which sentence is TRUE according to the text?",
+        q: "4. Why is purchasing artisan goods considered beneficial for the community?",
         options: [
-          "Buying durable goods produces huge amounts of plastic waste",
-          "Artisan goods require no physical effort or time to produce",
-          "The long life of handmade goods makes them economical over time",
-          "Cheap plastic bags last longer than real leather bags"
+          "It encourages the construction of large automated industrial factories",
+          "It fosters local cultural heritage, ethical work standards, and sustainable practices",
+          "It reduces the retail price of imported luxury fashion goods",
+          "It forces craftsmen to work without proper compensation"
         ],
-        correct: 2
+        correct: 1
       },
       {
-        q: "6. The word 'flimsy' in the passage means",
+        q: "5. How do discerning consumers evaluate the true value of a product?",
         options: [
-          "weak / easily broken",
+          "By its packaging design and aggressive online marketing",
+          "By its lasting quality, durability, and artistic integrity rather than cheap price",
+          "By choosing whichever item has the lowest discount price",
+          "By replacing their possessions every few weeks"
+        ],
+        correct: 1
+      },
+      {
+        q: "6. The word 'flimsy' in the passage is CLOSEST in meaning to _______.",
+        options: [
+          "fragile / poorly made",
           "sturdy",
-          "thick",
+          "costly",
           "heavy"
         ],
         correct: 0
       },
       {
-        q: "7. The word 'longevity' in the passage means",
+        q: "7. The word 'meticulously' in the passage is CLOSEST in meaning to _______.",
         options: [
-          "long life / lasting quality",
-          "short duration",
-          "high speed",
-          "low price"
+          "carefully / with great attention",
+          "hurriedly",
+          "carelessly",
+          "partially"
         ],
         correct: 0
       },
       {
-        q: "8. The word 'durable' in the passage means",
+        q: "8. The word 'longevity' in the passage is CLOSEST in meaning to _______.",
         options: [
-          "strong and long-lasting",
-          "fragile",
-          "temporary",
-          "colorful"
+          "durability / long life",
+          "shortness",
+          "popularity",
+          "fragility"
         ],
         correct: 0
       },
       {
-        q: "9. The word 'durable' is the OPPOSITE of",
+        q: "9. The word 'deteriorate' in the passage is OPPOSITE in meaning to _______.",
         options: [
-          "sturdy",
-          "tough",
-          "breakable / weak",
-          "reliable"
+          "decay",
+          "improve / flourish",
+          "weaken",
+          "collapse"
         ],
-        correct: 2
+        correct: 1
       },
       {
-        q: "10. The word 'expensive' is the OPPOSITE of",
+        q: "10. The word 'discerning' in the passage is OPPOSITE in meaning to _______.",
         options: [
-          "cheap/low-priced",
-          "costly",
-          "high",
-          "rich"
+          "perceptive",
+          "uncritical / undiscriminating",
+          "wise",
+          "intelligent"
         ],
-        correct: 0
+        correct: 1
       }
     ]
   },
@@ -1850,107 +1849,107 @@ const LESSON_DATA = {
   // NGÀY 18
   18: {
     title: "Overcoming Fear: Standing on the High Stage",
-    passage: "Standing on a big stage in front of hundreds of people can be a scary experience for school pupils. When children step under bright spotlights, they often feel apprehensive and their hands start to shake. Because they worry about making mistakes, their hearts beat very fast. Although stage fright feels uncomfortable, doctors say it is a normal human reaction. In spite of feeling nervous inside, good speakers learn to take slow, deep breaths to stay calm. However, you cannot become a confident speaker without regular practice. Even though speaking to a large audience seems difficult at first, practicing in front of a mirror or with family helps a lot. When you practice your speech many times, your fear disappears, and you become bold, fluent, and confident.",
+    passage: "Public speaking and performing before large audiences are ranked among the most daunting psychological hurdles for young learners. The prospect of stepping onto an illuminated stage often triggers acute physical anxiety, including rapid heart palpitations, trembling hands, and a parched throat. When standing beneath glaring spotlights, speakers instinctively feel vulnerable, imagining that every spectator is scrutinizing their potential mistakes. However, psychologists emphasize that performance nervousness is a completely normal physiological response designed to sharpen human alertness. The decisive factor distinguishing successful presenters from paralyzed ones is the mental framework used to interpret stage fright. Instead of attempting to suppress fear forcefully, accomplished orators reframe anxiety as channeled enthusiasm and constructive energy. Thorough preparation, including repeated rehearsals in front of mirrors or trusted peers, systematically builds cognitive confidence. Developing deep diaphragmatic breathing techniques helps steady shaky vocal cords and restores composure before walking into the public eye. Commencing a speech with a sincere personal anecdote captures audience empathy and breaks psychological tension instantly. Over time, recurring stage exposure desensitizes the brain to intimidation, transforming terrifying ordeals into empowering growth milestones. Embracing stage vulnerability ultimately builds exceptional resilience, persuasive eloquence, and authentic self-assurance. Conquering fear does not mean the total absence of apprehension, but the courage to perform boldly despite its presence.",
     questions: [
       {
-        q: "1. What is the main topic of the passage?",
+        q: "1. What is the central theme of the passage?",
         options: [
-          "How to build bright lights for theatrical school stages",
-          "Understanding stage fear and practical ways to speak with confidence",
-          "Why students should avoid speaking in public auditoriums",
-          "The history of classical acting in school theaters"
+          "The technical lighting specifications required for theatrical auditoriums",
+          "The physiological nature of stage fright and practical strategies to master public performance",
+          "Why professional acting careers cause severe emotional exhaustion",
+          "Methods for memorizing long theatrical scripts without notes"
         ],
         correct: 1
       },
       {
-        q: "2. Why do students often feel nervous when standing on stage?",
+        q: "2. What can be inferred about the physiological symptoms of performance anxiety?",
         options: [
-          "Because the stage floor is too slippery to stand on",
-          "Because they worry about making mistakes in front of spectators",
-          "Because they dislike wearing formal school uniforms",
-          "Because the presentation lasts for five hours"
+          "They indicate permanent cognitive weakness and total lack of talent",
+          "They are natural evolutionary bodily reactions that can be harnessed constructively",
+          "They only occur in inexperienced individuals who fail to study",
+          "They can be completely cured by avoiding public events entirely"
         ],
         correct: 1
       },
       {
-        q: "3. What bodily reaction happens when people feel stage fright?",
+        q: "3. Which of the following is TRUE about successful orators according to the text?",
         options: [
-          "Their hands shake and their hearts beat fast",
-          "They feel hungry and want to eat sweets",
-          "Their eyesight becomes blurry permanently",
-          "They immediately fall fast asleep on stage"
+          "They never experience any nervousness before stepping onto stage",
+          "They reframe anxious sensations into dynamic energy and focus",
+          "They deliver speeches without doing prior rehearsals or preparation",
+          "They ignore the audience completely to protect their feelings"
+        ],
+        correct: 1
+      },
+      {
+        q: "4. How does starting a speech with a personal story assist the presenter?",
+        options: [
+          "It prolongs the presentation unnecessarily to meet time limits",
+          "It captures listener empathy and rapidly dissolves psychological tension",
+          "It proves the speaker's superiority over the audience members",
+          "It prevents audience members from asking questions later"
+        ],
+        correct: 1
+      },
+      {
+        q: "5. According to the conclusion, what is the genuine definition of overcoming fear?",
+        options: [
+          "Waiting until all traces of nervousness have permanently vanished",
+          "Having the courage to act boldly and communicate authentically despite feeling anxious",
+          "Delegating public speaking duties to other classmates",
+          "Pretending to be someone else while on stage"
+        ],
+        correct: 1
+      },
+      {
+        q: "6. The word 'daunting' in the passage is CLOSEST in meaning to _______.",
+        options: [
+          "intimidating / challenging",
+          "effortless",
+          "pleasant",
+          "boring"
         ],
         correct: 0
       },
       {
-        q: "4. What does the author suggest to overcome stage nervousness?",
+        q: "7. The word 'composure' in the passage is CLOSEST in meaning to _______.",
         options: [
-          "Leaving the stage immediately without speaking",
-          "Taking slow deep breaths and practicing speeches beforehand",
-          "Closing your eyes and staying silent throughout the event",
-          "Drinking cold soft drinks right before speaking"
-        ],
-        correct: 1
-      },
-      {
-        q: "5. Which sentence is TRUE about stage fright according to the text?",
-        options: [
-          "It only affects lazy students who do not study",
-          "It is a completely normal physical and emotional reaction",
-          "It never goes away even if you practice every day",
-          "It prevents students from making new school friends"
-        ],
-        correct: 1
-      },
-      {
-        q: "6. The word 'apprehensive' in the story means",
-        options: [
-          "worried / fearful",
-          "calm",
-          "joyful",
-          "proud"
+          "calmness / self-control",
+          "panic",
+          "confusion",
+          "anger"
         ],
         correct: 0
       },
       {
-        q: "7. The word 'spotlights' in the story means",
+        q: "8. The word 'eloquence' in the passage is CLOSEST in meaning to _______.",
         options: [
-          "strong stage lights",
-          "dark rooms",
-          "wooden chairs",
-          "paper microphones"
+          "fluent and persuasive speech",
+          "silent contemplation",
+          "aggressive argument",
+          "hesitant delivery"
         ],
         correct: 0
       },
       {
-        q: "8. The word 'fluent' in the story means",
+        q: "9. The word 'scrutinizing' in the passage is OPPOSITE in meaning to _______.",
         options: [
-          "speaking smoothly and easily",
-          "quiet",
-          "slow and hesitant",
-          "rude"
-        ],
-        correct: 0
-      },
-      {
-        q: "9. The word 'scared' is the OPPOSITE of",
-        options: [
-          "afraid",
-          "brave / confident",
-          "nervous",
-          "timid"
+          "inspecting closely",
+          "glancing over / ignoring",
+          "examining",
+          "observing"
         ],
         correct: 1
       },
       {
-        q: "10. The word 'confident' is the OPPOSITE of",
+        q: "10. The word 'resilience' in the passage is OPPOSITE in meaning to _______.",
         options: [
-          "sure",
-          "bold",
-          "fearful/insecure",
-          "strong"
+          "toughness",
+          "fragility / vulnerability",
+          "strength",
+          "endurance"
         ],
-        correct: 2
+        correct: 1
       }
     ]
   },
@@ -1958,107 +1957,107 @@ const LESSON_DATA = {
   // NGÀY 19
   19: {
     title: "Managing Stress and Anxiety Before Big Exams",
-    passage: "Final examinations are important events for students, but they often cause a lot of worry. Many learners feel anxious before tests because they want to meet their parents' and teachers' expectations. Although studying hard is necessary, staying up all night studying is a big mistake. In spite of studying for many hours, an exhausted student cannot remember facts clearly during the test. However, students can reduce their stress by following a sensible study plan. Taking short breaks to stretch or listen to music helps the mind stay refreshed. Even though some exam questions are tricky, taking deep breaths keeps you calm. Eating nutritious food and sleeping eight hours every night ensures that your brain stays active and composed on exam morning.",
+    passage: "Academic examinations represent pivotal assessment milestones that frequently trigger intense apprehension among ambitious secondary students. When the pressure to achieve stellar grades mounts, many learners suffer from insomnia, digestive distress, and overwhelming mental paralysis. This debilitating anxiety stems primarily from fear of academic inadequacy, parental expectations, and catastrophic assumptions regarding future career paths. Cognitive scientists explain that excessive stress floods the brain with cortisol, severely impairing working memory and logical reasoning faculties. Consequently, anxious students often experience sudden mind blanks during tests despite having spent weeks revising diligently. To counteract this destructive cycle, educators advocate adopting structured revision schedules that incorporate regular restorative breaks. Implementing active learning techniques, such as summarizing concepts in one's own words and taking timed mock tests, enhances genuine mastery. Furthermore, engaging in daily aerobic exercise, maintaining adequate hydration, and securing eight hours of quality sleep stabilize neurological equilibrium. Cultivating a growth mindset that treats occasional academic stumbles as constructive learning opportunities reduces catastrophic thinking patterns. During the examination itself, practicing brief grounding exercises and reading instructions methodically prevents panicky misinterpretations. Developing emotional regulation strategies transforms debilitating exam stress into focused, calm, and resilient scholastic performance. Learning to manage performance anxiety effectively is a lifelong psychological asset that extends far beyond school walls.",
     questions: [
       {
-        q: "1. What is the passage mainly about?",
+        q: "1. What is the primary purpose of the passage?",
         options: [
-          "How to write examination papers for secondary schools",
-          "Why exam stress happens and healthy ways to manage it",
-          "The history of university entrance grading systems",
-          "How to avoid taking exams during the school year"
+          "To criticize modern national examination grading standards",
+          "To examine the detrimental mechanisms of exam anxiety and provide holistic strategies for stress management",
+          "To advocate for the complete abolition of written academic tests",
+          "To rank academic subjects based on their difficulty levels"
         ],
         correct: 1
       },
       {
-        q: "2. Why do students often feel anxious before big exams?",
+        q: "2. What can be inferred about the physiological impact of elevated cortisol levels during exams?",
         options: [
-          "Because they want to meet expectations from teachers and parents",
-          "Because school classrooms are too cold in summer",
-          "Because they prefer doing manual domestic chores",
-          "Because tests only take ten minutes to finish"
-        ],
-        correct: 0
-      },
-      {
-        q: "3. What happens if a student stays up all night studying before a test?",
-        options: [
-          "They remember every single detail with photographic memory",
-          "They become exhausted and cannot recall information clearly",
-          "They receive automatic top marks from the school board",
-          "They eliminate all stress and nervousness instantly"
+          "It enhances memory retention and speeds up calculation abilities",
+          "It impairs cognitive faculties, causing memory blanks and logical confusion",
+          "It eliminates the necessity for restorative sleep during revision periods",
+          "It guarantees superior performance under intense time constraints"
         ],
         correct: 1
       },
       {
-        q: "4. How can students refresh their minds during long study sessions?",
+        q: "3. Which of the following is TRUE about active revision techniques according to the text?",
         options: [
-          "By drinking energy drinks continuously without food",
-          "By taking short breaks to stretch or listen to relaxing music",
-          "By studying four different subjects at the exact same time",
-          "By playing video games for six hours without sleeping"
+          "They involve passive re-reading of textbooks without taking notes",
+          "They include self-summarization and timed practice tests to solidify mastery",
+          "They require studying throughout the entire night before exams",
+          "They should only be practiced on the morning of the test"
         ],
         correct: 1
       },
       {
-        q: "5. Which sentence is TRUE according to the passage?",
+        q: "4. What role does physical well-being play in reducing academic anxiety?",
         options: [
-          "Eating nutritious food and sleeping well helps the brain stay active",
-          "Tricky exam questions can never be solved by calm students",
-          "Students should skip breakfast on the morning of an exam",
-          "Studying without rest breaks is the best way to get high marks"
+          "Aerobic exercise, hydration, and proper sleep stabilize brain function and emotional balance",
+          "Physical health has zero measurable correlation with cognitive performance",
+          "Consuming large amounts of caffeinated energy drinks replaces sleep needs",
+          "Restricting food intake improves test-taking speed"
         ],
         correct: 0
       },
       {
-        q: "6. The word 'anxious' in the passage means",
+        q: "5. How does a growth mindset help students cope with academic pressure?",
         options: [
-          "calm",
-          "worried / nervous",
-          "happy",
-          "angry"
+          "By convincing them that examination scores do not matter at all",
+          "By reframing mistakes as valuable learning experiences rather than catastrophic failures",
+          "By encouraging competition against classmates in every subject",
+          "By eliminating the need to prepare for standardized tests"
         ],
         correct: 1
       },
       {
-        q: "7. The word 'refreshed' in the passage means",
+        q: "6. The word 'debilitating' in the passage is CLOSEST in meaning to _______.",
         options: [
-          "energized/feeling rested",
-          "tired",
-          "dirty",
-          "bored"
+          "weakening / paralyzing",
+          "energizing",
+          "beneficial",
+          "refreshing"
         ],
         correct: 0
       },
       {
-        q: "8. The word 'composed' in the passage means",
+        q: "7. The word 'pivotal' in the passage is CLOSEST in meaning to _______.",
         options: [
-          "calm and in control",
-          "panicked",
-          "noisy",
-          "careless"
+          "unimportant",
+          "crucial / highly significant",
+          "flexible",
+          "accidental"
+        ],
+        correct: 1
+      },
+      {
+        q: "8. The word 'equilibrium' in the passage is CLOSEST in meaning to _______.",
+        options: [
+          "balance / stability",
+          "chaos",
+          "tension",
+          "exhaustion"
         ],
         correct: 0
       },
       {
-        q: "9. The word 'worried' is the OPPOSITE of",
+        q: "9. The word 'catastrophic' in the passage is OPPOSITE in meaning to _______.",
         options: [
-          "nervous",
-          "anxious",
-          "relaxed/calm",
-          "scared"
+          "disastrous",
+          "harmless / mild",
+          "terrible",
+          "severe"
         ],
-        correct: 2
+        correct: 1
       },
       {
-        q: "10. The word 'exhausted' is the OPPOSITE of",
+        q: "10. The word 'methodically' in the passage is OPPOSITE in meaning to _______.",
         options: [
-          "tired",
-          "weak",
-          "energetic/lively",
-          "sleepy"
+          "systematically",
+          "chaotically / haphazardly",
+          "carefully",
+          "orderly"
         ],
-        correct: 2
+        correct: 1
       }
     ]
   },
@@ -2066,107 +2065,107 @@ const LESSON_DATA = {
   // NGÀY 20
   20: {
     title: "The Joy of Donating Toys to Children in Need",
-    passage: "Sharing what we have with less fortunate people brings immense happiness to our hearts. In many homes, children have old toys, picture books, and games that they no longer use. Although these toys lie forgotten inside a wardrobe, they can become priceless treasures for poor children. My school organizes a toy donation drive every winter because we want to bring smiles to sick children in the local hospital. In spite of being busy with school lessons, many students volunteer to clean, sanitize, and pack the toys neatly. However, donating is not just about giving away things you do not want. It is about sharing love. Even though our gifts are simple, seeing the children's joyful smiles makes all the hard work worthwhile. Giving selflessly helps young people learn gratitude and compassion.",
+    passage: "Generosity is one of the most noble human virtues that fosters deep social empathy and bridges communal disparities. Across many prosperous households, countless gently used toys, storybooks, and educational board games lie neglected in storage cabinets. While these items no longer spark curiosity for their original owners, they represent priceless treasures for disadvantaged children. Organizing community donation drives enables families to gather, sanitize, and repackage these forgotten playthings with loving care. When young volunteers personally deliver colorful packages to rural orphanages or pediatric hospitals, the emotional atmosphere becomes profoundly moving. The recipients' eyes illuminate with sheer euphoria as they embrace soft teddy bears, assemble puzzle sets, or read vibrant picture books. Psychologists observe that philanthropic acts activate neurological pleasure centers, generating profound personal happiness and lasting emotional fulfillment. For privileged children, participating in charitable endeavors dismantles materialistic entitlement and nurtures genuine gratitude for their everyday blessings. Seeing underprivileged peers beam with uncontainable joy teaches young donors that human worth is enriched through selfless sharing rather than selfish hoarding. Furthermore, redistributing quality pre-owned goods reduces municipal landfill waste, embodying sustainable environmental stewardship. Generosity creates a benevolent ripple effect, inspiring surrounding community members to initiate their own compassionate charitable outreach projects. Ultimately, the act of giving enriches the benefactor's spirit just as profoundly as it uplifts the recipient's life.",
     questions: [
       {
         q: "1. What is the central message of the passage?",
         options: [
-          "How to sell old plastic toys to earn money",
-          "Donating toys brings joy to needy children and teaches kindness",
-          "Why children should keep all their toys in storage boxes",
-          "The rules of cleaning toys with chemical liquids"
+          "The economic benefits of manufacturing cheaper plastic toys",
+          "How donating pre-owned toys brings joy to needy children and enriches donors' empathy and happiness",
+          "Strict government safety regulations for pediatric hospital playrooms",
+          "Techniques for repairing antique wooden toys at home"
         ],
         correct: 1
       },
       {
-        q: "2. Why does the author's school organize a toy donation drive every winter?",
+        q: "2. What can be inferred about the psychological effect of charitable giving on donors?",
         options: [
-          "To clean the school classrooms before the holidays",
-          "To bring joy and smiles to sick children in the hospital",
-          "To force students to buy brand-new expensive toys",
-          "To earn profits for the city shopping center"
+          "It causes emotional regret over giving away personal possessions",
+          "It stimulates mental well-being and generates profound emotional satisfaction",
+          "It makes donors desire more expensive luxury items for themselves",
+          "It creates emotional distance between volunteers and the community"
         ],
         correct: 1
       },
       {
-        q: "3. What do student volunteers do with the collected toys?",
+        q: "3. Which of the following is TRUE about the donated items according to the text?",
         options: [
-          "They throw away broken parts and leave the rest outside",
-          "They clean, sanitize, and pack them neatly with care",
-          "They sell them at weekend garage sales for cash",
-          "They paint them black and keep them in the library"
+          "They must be brand-new luxury electronics imported from abroad",
+          "They are sanitized, neatly repackaged, and given meaningful second lives",
+          "They are sold at weekend markets to generate corporate profits",
+          "They are sent directly to recycling incinerators"
         ],
         correct: 1
       },
       {
-        q: "4. What does donating toys teach young students?",
+        q: "4. How does participating in donation drives benefit privileged children?",
         options: [
-          "How to bargain for lower prices at markets",
-          "Gratitude, empathy, and selfless sharing",
-          "How to repair electronic computer games",
-          "That old possessions have no value to anyone"
-        ],
-        correct: 1
-      },
-      {
-        q: "5. Which sentence is TRUE according to the passage?",
-        options: [
-          "Old toys forgotten in wardrobes can be treasures for needy children",
-          "Students are too busy with lessons to help with donation drives",
-          "Hospital children only want expensive electronic smartphones",
-          "Donating things makes children feel sad and regretful"
+          "It reduces their self-centered materialism and nurtures heartfelt appreciation for what they have",
+          "It ensures they receive academic exemptions from difficult school subjects",
+          "It teaches them how to negotiate aggressive retail prices",
+          "It encourages them to discard their belongings without parental consent"
         ],
         correct: 0
       },
       {
-        q: "6. The word 'joyful' in the story means",
+        q: "5. What environmental advantage is mentioned in connection with donating pre-owned goods?",
         options: [
-          "full of happiness / cheerful",
-          "sad",
-          "tired",
-          "scary"
-        ],
-        correct: 0
-      },
-      {
-        q: "7. The word 'sanitize' in the story means",
-        options: [
-          "clean and make hygienic",
-          "break into pieces",
-          "hide away",
-          "paint colorful pictures"
-        ],
-        correct: 0
-      },
-      {
-        q: "8. The word 'worthwhile' in the story means",
-        options: [
-          "useless",
-          "valuable / worth the effort",
-          "boring",
-          "cheap"
+          "It eliminates the need for electric power in rural villages",
+          "It minimizes domestic waste ending up in municipal landfills",
+          "It stops deforestation in tropical rainforest areas completely",
+          "It replaces the need for organic farming practices"
         ],
         correct: 1
       },
       {
-        q: "9. The word 'joyful' is the OPPOSITE of",
+        q: "6. The word 'euphoria' in the passage is CLOSEST in meaning to _______.",
         options: [
-          "happy",
-          "cheerful",
-          "miserable / sad",
-          "excited"
+          "intense happiness / delight",
+          "sorrow",
+          "indifference",
+          "anger"
+        ],
+        correct: 0
+      },
+      {
+        q: "7. The word 'philanthropic' in the passage is CLOSEST in meaning to _______.",
+        options: [
+          "charitable / benevolent",
+          "greedy",
+          "commercial",
+          "hostile"
+        ],
+        correct: 0
+      },
+      {
+        q: "8. The word 'benefactor' in the passage is CLOSEST in meaning to _______.",
+        options: [
+          "donor / giver",
+          "recipient",
+          "spectator",
+          "merchant"
+        ],
+        correct: 0
+      },
+      {
+        q: "9. The word 'neglected' in the passage is OPPOSITE in meaning to _______.",
+        options: [
+          "abandoned",
+          "treasured / cared for",
+          "forgotten",
+          "discarded"
+        ],
+        correct: 1
+      },
+      {
+        q: "10. The word 'disparities' in the passage is OPPOSITE in meaning to _______.",
+        options: [
+          "differences",
+          "inequalities",
+          "equalities / similarities",
+          "variations"
         ],
         correct: 2
-      },
-      {
-        q: "10. The word 'generous' is the OPPOSITE of",
-        options: [
-          "kind",
-          "selfish/mean",
-          "polite",
-          "friendly"
-        ],
-        correct: 1
       }
     ]
   },
@@ -2278,8 +2277,7 @@ const LESSON_DATA = {
       }
     ]
   },
-
-  // ==============================================================================================
+// ==============================================================================================
   // TUẦN 4: ĐỒ ĂN, SỨC KHỎE & HOẠT ĐỘNG THỂ THAO (NGÀY 22 - 30) - LỒNG GHÉP TỪ TRỌNG ĐIỂM ĐỀ THI
   // ==============================================================================================
 
@@ -3254,9 +3252,8 @@ const LESSON_DATA = {
       }
     ]
   },
-
-  // =========================================================================================================
-  // GIAI ĐOẠN 2 (B1) - TUẦN 5: MÔI TRƯỜNG TỰ NHIÊN, THỜI TIẾT & ĐỘNG VẬT HOANG DÃ (NGÀY 31 - 37)
+// =========================================================================================================
+  // GIAI ĐOẠN 2 (B1) - TUẦN 5: MÔI TRƯỜNG TỰ NHIÊN, THỜI TIẾT & ĐỘNG VẬT HOANG DÃ (NGÀY 31 - 37) - 13 CÂU/BÀI
   // =========================================================================================================
 
   // NGÀY 31
@@ -4014,9 +4011,8 @@ const LESSON_DATA = {
       }
     ]
   },
-
-  // =========================================================================================================
-  // GIAI ĐOẠN 2 (B1) - TUẦN 6: GIÁO DỤC, TRƯỜNG HỌC & KỸ NĂNG TƯƠNG LAI (NGÀY 38 - 44)
+// =========================================================================================================
+  // GIAI ĐOẠN 2 (B1) - TUẦN 6: GIÁO DỤC, TRƯỜNG HỌC & KỸ NĂNG TƯƠNG LAI (NGÀY 38 - 44) - 13 CÂU/BÀI
   // =========================================================================================================
 
   // NGÀY 38
@@ -4774,9 +4770,8 @@ const LESSON_DATA = {
       }
     ]
   },
-
-  // =========================================================================================================
-  // GIAI ĐOẠN 2 (B1) - TUẦN 7: CÔNG NGHỆ, GIAO THÔNG & DU LỊCH (NGÀY 45 - 51)
+// =========================================================================================================
+  // GIAI ĐOẠN 2 (B1) - TUẦN 7: CÔNG NGHỆ, GIAO THÔNG & DU LỊCH (NGÀY 45 - 51) - 13 CÂU/BÀI
   // =========================================================================================================
 
   // NGÀY 45
@@ -5534,9 +5529,8 @@ const LESSON_DATA = {
       }
     ]
   },
-
-  // =========================================================================================================
-  // GIAI ĐOẠN 2 (B1) - TUẦN 8: NGHỀ NGHIỆP, DOANH NGHIỆP & CỘNG ĐỒNG (NGÀY 52 - 60)
+// =========================================================================================================
+  // GIAI ĐOẠN 2 (B1) - TUẦN 8: NGHỀ NGHIỆP, DOANH NGHIỆP & CỘNG ĐỒNG (NGÀY 52 - 60) - 13 CÂU/BÀI
   // =========================================================================================================
 
   // NGÀY 52
@@ -6493,7 +6487,7 @@ const LESSON_DATA = {
         options: [
           "dangerous",
           "perilous",
-          "safe / harmless",
+          "safe / secure",
           "harmful"
         ],
         correct: 2
@@ -6509,5 +6503,4 @@ const LESSON_DATA = {
         correct: 2
       }
     ]
-  }
-};
+  }};
